@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projektduplicator 2026", "Projektduplicator_2017\Projektduplicator_2017_45.csproj", "{C86E6128-21B5-4A27-92FB-065A96E10CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projektduplicator.Updater", "updater\Projektduplicator.Updater.csproj", "{ADE4676B-9846-4FB1-BC23-2D91527F40EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Release|Any CPU.ActiveCfg = Release|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Release|Any CPU.Build.0 = Release|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Debug|x86.ActiveCfg = Debug|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Debug|x86.Build.0 = Debug|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Release|x86.ActiveCfg = Release|AnyCPU
+		{ADE4676B-9846-4FB1-BC23-2D91527F40EC}.Release|x86.Build.0 = Release|AnyCPU
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Debug|x86.ActiveCfg = Debug|x86
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Debug|x86.Build.0 = Debug|x86
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Release|x86.ActiveCfg = Release|x86
+		{C86E6128-21B5-4A27-92FB-065A96E10CDE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_NeutralResourcesLanguage = de-DE
+		SolutionGuid = {BC3D3508-7D48-46E7-B29D-AA1D875FE4BA}
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_UpdateFileVersion = True
+		BuildVersion_StartDate = 2000/1/1
+		BuildVersion_UseGlobalSettings = True
+		BuildVersion_UseUniversalClock = True
+	EndGlobalSection
+EndGlobal

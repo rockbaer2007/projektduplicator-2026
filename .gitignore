@@ -1,0 +1,14 @@
+.vs/
+**/bin/
+**/obj/
+packages/
+dist/
+*.user
+*.suo
+*.pdb
+pdup_settings.xml
+Path.txt
+SplineID.txt
+HN_splineID.txt
+LOCAL-REVIEW*.md
+2017_08_17.xlsx

@@ -1,0 +1,87 @@
+-- Deutsch --
+Projektduplicator 2026
+Vielen Dank an meine Tester:
+
+• FB1 = Frank Buschmann
+• AW2 = Axel Wokurka
+• AF1 = Andreas Falk
+• KL1 = Kai-Uwe Lehmann
+• SM1 = Steffen Mauder
+• GK3 = Hans-Günther Kohl
+• NR1 = Noël van Rompay
+
+Ein besonderer Dank geht an Noël van Rompay, der meine chaotischen Google-Übersetzungen korrigiert hat.
+Die Icons wurden von LD1 = Lutz Dittrich erstellt.
+
+Projektduplicator 2026 unterstützt das Duplizieren und Bearbeiten von EEP-Modellprojekten.
+Die Oberfläche ist in Deutsch, Englisch, Französisch und Niederländisch verfügbar. Die Sprache kann während der Programmlaufzeit gewechselt werden.
+Modellnamen und Beschreibungen können über Google Translate übersetzt werden. Dafür ist eine Internetverbindung erforderlich. Die Funktion verwendet die Google-Webseite und hängt von deren Antwortformat ab; sie nutzt keine offizielle Google-API. Bei einem Übersetzungsfehler bleiben die vorhandenen Texte erhalten.
+Die Snapshotfunktion erstellt ZIP-Sicherungen von Projekten.
+Die Update-Schaltflächen öffnen eine manuelle Prüfung auf neue GitHub-Releases. Es erfolgt keine automatische Updateprüfung beim Programmstart.
+Sobald ein passendes Release verfügbar ist, kann es nach Bestätigung heruntergeladen, geprüft und installiert werden. Vorhandene Einstellungen und Projekte bleiben erhalten; nach erfolgreicher Installation startet das Programm neu.
+
+-- English --
+Projektduplicator 2026
+Many thanks to my testers:
+
+• FB1 = Frank Buschmann
+• AW2 = Axel Wokurka
+• AF1 = Andreas Falk
+• KL1 = Kai-Uwe Lehmann
+• SM1 = Steffen Mauder
+• GK3 = Hans-Günther Kohl
+• NR1 = Noël van Rompay
+
+Special thanks to Noël van Rompay, who corrected my chaotic Google translations.
+Icons created by LD1 = Lutz Dittrich.
+
+Projektduplicator 2026 helps duplicate and edit EEP model projects.
+The interface is available in German, English, French and Dutch. You can change the language while the program is running.
+Model names and descriptions can be translated using Google Translate. This requires an internet connection. The feature uses the Google website and depends on its response format; it does not use an official Google API. If translation fails, the existing texts are retained.
+The snapshot feature creates ZIP backups of projects.
+The update buttons open a manual check for new GitHub releases. Updates are not checked automatically at startup.
+Once a suitable release is available, it can be downloaded, verified and installed after confirmation. Existing settings and projects are preserved, and the program restarts after a successful installation.
+
+-- Français --
+Projektduplicator 2026
+Un grand merci à mes testeurs :
+
+• FB1 = Frank Buschmann
+• AW2 = Axel Wokurka
+• AF1 = Andreas Falk
+• KL1 = Kai-Uwe Lehmann
+• SM1 = Steffen Mauder
+• GK3 = Hans-Günther Kohl
+• NR1 = Noël van Rompay
+
+Un merci particulier à Noël van Rompay, qui a corrigé mes traductions chaotiques réalisées avec Google.
+Icônes créées par LD1 = Lutz Dittrich.
+
+Projektduplicator 2026 permet de dupliquer et de modifier des projets de modèles EEP.
+L’interface est disponible en allemand, anglais, français et néerlandais. La langue peut être changée pendant l’utilisation du programme.
+Les noms et les descriptions des modèles peuvent être traduits avec Google Translate. Une connexion Internet est nécessaire. Cette fonction utilise le site Web de Google et dépend du format de ses réponses ; elle n’utilise pas d’API officielle de Google. En cas d’échec de la traduction, les textes existants sont conservés.
+La fonction d’instantané crée des sauvegardes ZIP des projets.
+Les boutons de mise à jour permettent de rechercher manuellement de nouvelles versions sur GitHub. Aucune recherche automatique n’est effectuée au démarrage.
+Dès qu’une version adaptée sera disponible, elle pourra être téléchargée, vérifiée et installée après confirmation. Les paramètres et les projets existants sont conservés, et le programme redémarre après une installation réussie.
+
+-- Nederlands --
+Projektduplicator 2026
+Hartelijk dank aan mijn testers:
+
+• FB1 = Frank Buschmann
+• AW2 = Axel Wokurka
+• AF1 = Andreas Falk
+• KL1 = Kai-Uwe Lehmann
+• SM1 = Steffen Mauder
+• GK3 = Hans-Günther Kohl
+• NR1 = Noël van Rompay
+
+Speciale dank aan Noël van Rompay, die mijn chaotische Google-vertalingen heeft gecorrigeerd.
+Pictogrammen gemaakt door LD1 = Lutz Dittrich.
+
+Projektduplicator 2026 helpt bij het dupliceren en bewerken van EEP-modelprojecten.
+De interface is beschikbaar in het Duits, Engels, Frans en Nederlands. De taal kan tijdens het gebruik van het programma worden gewijzigd.
+Modelnamen en beschrijvingen kunnen met Google Translate worden vertaald. Hiervoor is een internetverbinding nodig. Deze functie gebruikt de Google-website en is afhankelijk van het antwoordformaat; er wordt geen officiële Google-API gebruikt. Als de vertaling mislukt, blijven de bestaande teksten behouden.
+De snapshotfunctie maakt ZIP-back-ups van projecten.
+De updateknoppen openen een handmatige controle op nieuwe GitHub-releases. Bij het starten van het programma wordt niet automatisch op updates gecontroleerd.
+Zodra een geschikte release beschikbaar is, kan deze na bevestiging worden gedownload, gecontroleerd en geïnstalleerd. Bestaande instellingen en projecten blijven behouden en het programma start opnieuw na een geslaagde installatie.

@@ -1,0 +1,7 @@
+* text=auto
+*.cs text eol=crlf
+*.resx text eol=crlf
+*.dll binary
+*.png binary
+*.gif binary
+*.ico binary

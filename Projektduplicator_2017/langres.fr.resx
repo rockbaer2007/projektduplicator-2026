@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Dupliquer</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="pictureBox1.tt" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Page d'accueil</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Instantanés des projets</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value>À propos du programme</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Sauvegardes automatiques</value>
+  </data>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projektduplicator 2026</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Chemin d'accès aux fichiers de sauvegarde</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Chemin d'accès aux fichiers de sauvegarde</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>ATTENTION : la suppression de projets est activée</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Signature du créateur enregistrée :</value>
+  </data>
+  <data name="labelCopyright.Text" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="pictureBox2.tt" xml:space="preserve">
+    <value>Réduire</value>
+  </data>
+  <data name="pictureBox3.tt" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="pictureBox5.tt" xml:space="preserve">
+    <value>Allemand</value>
+  </data>
+  <data name="pictureBox6.tt" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="pictureBox7.tt" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="pictureBox8.tt" xml:space="preserve">
+    <value>Néerlandais</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Ouvrir dans l’Explorateur de fichiers</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>Supprimer le projet sélectionné</value>
+  </data>
+  <data name="userBackupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Instantanés des projets</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Instantanés de projets enregistrés</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Sélectionner une entrée, puis faire un clic droit pour supprimer son fichier ZIP après confirmation.</value>
+  </data>
+  <data name="toolStripLabel2.Text" xml:space="preserve">
+    <value>Sélectionner une entrée, puis faire un clic droit pour supprimer son fichier ZIP après confirmation.</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Si le pays d’origine n’est pas répertorié, utiliser la valeur « Others ». Exemple : le Pérou, malgré sa ligne à voie normale culminant à 4 781 m.</value>
+  </data>
+  <data name="labelCompanyName.Text" xml:space="preserve">
+    <value>Nom de l'entreprise</value>
+  </data>
+  <data name="button1.Text_option" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="button2.Text_option" xml:space="preserve">
+    <value>Parcourir les dossiers</value>
+  </data>
+  <data name="button3.Text_option" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="label2.Text_option" xml:space="preserve">
+    <value>Attention : activez cette fonction à vos risques et périls.</value>
+  </data>
+  <data name="label3.Text_option" xml:space="preserve">
+    <value>Dernier identifiant de spline</value>
+  </data>
+  <data name="label4.Text_option" xml:space="preserve">
+    <value>Signature du créateur</value>
+  </data>
+  <data name="checkBox1.Text_option" xml:space="preserve">
+    <value>Activer la suppression de projets</value>
+  </data>
+  <data name="$this.Text_option" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="a1.Text" xml:space="preserve">
+    <value>Auteur</value>
+  </data>
+  <data name="o1.Text" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="b1.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="r1.Text" xml:space="preserve">
+    <value>Remarque</value>
+  </data>
+  <data name="m01.Text" xml:space="preserve">
+    <value>Créateur du modèle</value>
+  </data>
+  <data name="m1.Text" xml:space="preserve">
+    <value>Nom du modèle en anglais</value>
+  </data>
+  <data name="m2.Text" xml:space="preserve">
+    <value>Nom du modèle en allemand</value>
+  </data>
+  <data name="m3.Text" xml:space="preserve">
+    <value>Nom du modèle en français</value>
+  </data>
+  <data name="m4.Text" xml:space="preserve">
+    <value>Nom du modèle en polonais</value>
+  </data>
+  <data name="d1.Text" xml:space="preserve">
+    <value>Description en anglais</value>
+  </data>
+  <data name="d2.Text" xml:space="preserve">
+    <value>Description en allemand</value>
+  </data>
+  <data name="d3.Text" xml:space="preserve">
+    <value>Description en français</value>
+  </data>
+  <data name="d4.Text" xml:space="preserve">
+    <value>Description en polonais</value>
+  </data>
+  <data name="p1.Text" xml:space="preserve">
+    <value>Documentation PDF en anglais</value>
+  </data>
+  <data name="p2.Text" xml:space="preserve">
+    <value>Documentation PDF en allemand</value>
+  </data>
+  <data name="p3.Text" xml:space="preserve">
+    <value>Documentation PDF en français</value>
+  </data>
+  <data name="p4.Text" xml:space="preserve">
+    <value>Documentation PDF en polonais</value>
+  </data>
+  <data name="edverweis1" xml:space="preserve">
+    <value>23 caractères maximum ; un trait de soulignement et le code du créateur seront ajoutés.</value>
+  </data>
+  <data name="edverweis2" xml:space="preserve">
+    <value>Contient des caractères spéciaux ou des espaces</value>
+  </data>
+  <data name="ed_t1" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="ed_b1" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="ed_b2" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ed_t2" xml:space="preserve">
+    <value>Dupliquer</value>
+  </data>
+  <data name="ed_b22" xml:space="preserve">
+    <value>Cloner</value>
+  </data>
+  <data name="ed_saerch" xml:space="preserve">
+    <value>Parcourir …</value>
+  </data>
+  <data name="ed_lb72" xml:space="preserve">
+    <value>Dernière ID de spline utilisée :</value>
+  </data>
+  <data name="ed_i" xml:space="preserve">
+    <value>Pas de connexion Internet. La traduction Google est indisponible.</value>
+  </data>
+  <data name="ed_no" xml:space="preserve">
+    <value>Pas de réseau, pas d'internet</value>
+  </data>
+  <data name="ed_in" xml:space="preserve">
+    <value>Traduction Google disponible</value>
+  </data>
+  <data name="ed_tb3" xml:space="preserve">
+    <value>Traduire la description</value>
+  </data>
+  <data name="ed_bt11" xml:space="preserve">
+    <value>Traduire le nom du modèle</value>
+  </data>
+  <data name="ed_lb77" xml:space="preserve">
+    <value>Un texte anglais est requis. Saisir les noms de modèles et les descriptions sans traits de soulignement.</value>
+  </data>
+  <data name="ed_info1" xml:space="preserve">
+    <value>Saisir une description en anglais.</value>
+  </data>
+  <data name="tabP1" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="tabP2" xml:space="preserve">
+    <value>Icônes</value>
+  </data>
+  <data name="tabP3" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="tabP4" xml:space="preserve">
+    <value>Identifiants de spline HN</value>
+  </data>
+  <data name="tabP5" xml:space="preserve">
+    <value>Identifiants de spline des créateurs</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Projet original</value>
+  </data>
+  <data name="m001" xml:space="preserve">
+    <value>Informations sur le modèle</value>
+  </data>
+  <data name="m002" xml:space="preserve">
+    <value>Données de projet</value>
+  </data>
+  <data name="m003" xml:space="preserve">
+    <value>Spline ID</value>
+  </data>
+  <data name="label1_h" xml:space="preserve">
+    <value>Choisir le dossier du projet.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Dossier du projet</value>
+  </data>
+  <data name="mldg1" xml:space="preserve">
+    <value>Aucun dossier de projet n’est sélectionné. Un dossier valide contient System.ini et les fichiers du projet, affichés dans la liste en bas à gauche.</value>
+  </data>
+  <data name="msgbox1" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="mldg2" xml:space="preserve">
+    <value>Aucune entrée à supprimer.</value>
+  </data>
+  <data name="mldg3" xml:space="preserve">
+    <value>Supprimer le fichier de sauvegarde sélectionné ?</value>
+  </data>
+  <data name="mldg4" xml:space="preserve">
+    <value>Supprimer l’instantané sélectionné ?</value>
+  </data>
+  <data name="mldg5" xml:space="preserve">
+    <value>Déplacer le projet sélectionné vers la Corbeille ?</value>
+  </data>
+  <data name="mldg6" xml:space="preserve">
+    <value>ATTENTION : ce dossier n’est pas un dossier de projet.</value>
+  </data>
+  <data name="mldg7" xml:space="preserve">
+    <value>enregistré</value>
+  </data>
+  <data name="mldg1_up" xml:space="preserve">
+    <value>Modifications de la version</value>
+  </data>
+  <data name="mldg2_up" xml:space="preserve">
+    <value>Une nouvelle version est disponible pour votre application</value>
+  </data>
+  <data name="mldg3_up" xml:space="preserve">
+    <value>Voulez-vous installer la mise à jour maintenant?</value>
+  </data>
+  <data name="mldg4_up" xml:space="preserve">
+    <value>Projektduplicator 2026</value>
+  </data>
+  <data name="ed_lb101" xml:space="preserve">
+    <value>Nom du projet</value>
+  </data>
+  <data name="ed_gb2" xml:space="preserve">
+    <value>Traduction</value>
+  </data>
+  <data name="ed_gb1" xml:space="preserve">
+    <value>Type de spline (routes et chemins de terre)</value>
+  </data>
+  <data name="ed_rb1" xml:space="preserve">
+    <value>Splines à sens unique</value>
+  </data>
+  <data name="ed_rb2" xml:space="preserve">
+    <value>Splines standard à deux voies</value>
+  </data>
+  <data name="ed_cb1" xml:space="preserve">
+    <value>Ajouter les entrées OneWay à la spline</value>
+  </data>
+  <data name="ed_cb3" xml:space="preserve">
+    <value>Utiliser un seul PDF pour toutes les langues</value>
+  </data>
+  <data name="ed_lb79" xml:space="preserve">
+    <value>Longueur du nom 3dm</value>
+  </data>
+  <data name="ed_lb75" xml:space="preserve">
+    <value>Nom 3dm (fichier Prj)</value>
+  </data>
+  <data name="ed_mldg1" xml:space="preserve">
+    <value>Saisir le code du créateur.</value>
+  </data>
+  <data name="ed_info2" xml:space="preserve">
+    <value>Saisir un nom de modèle en anglais.</value>
+  </data>
+  <data name="ed_spmsg1" xml:space="preserve">
+    <value>Création de la liste des identifiants. Veuillez patienter.</value>
+  </data>
+  <data name="ed_spmsg2" xml:space="preserve">
+    <value>Dans le dossier du programme, cette opération</value>
+  </data>
+  <data name="ed_spmsg3" xml:space="preserve">
+    <value>crée également le fichier HN_splineID.txt</value>
+  </data>
+  <data name="ed_spmsg4" xml:space="preserve">
+    <value>ou complète la liste existante.</value>
+  </data>
+  <data name="ed_spmsg5" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ed_cb2" xml:space="preserve">
+    <value>**</value>
+  </data>
+  <data name="ed_komsg2" xml:space="preserve">
+    <value>SplineID.txt n’existe pas encore. Cette fonction est destinée aux créateurs de modèles.</value>
+  </data>
+  <data name="ed_komsg3" xml:space="preserve">
+    <value>Il est aussi possible de renommer Demo_splineid.txt et d’ajouter ses propres entrées.</value>
+  </data>
+  <data name="ed_komsg1" xml:space="preserve">
+    <value>Créer le fichier avec l’encodage UTF-8, par exemple dans Notepad++.</value>
+  </data>
+  <data name="ed_kommsg1" xml:space="preserve">
+    <value>Liste SplineID</value>
+  </data>
+  <data name="ed_mldg2" xml:space="preserve">
+    <value>Le projet sera sauvegardé avant la copie.</value>
+  </data>
+  <data name="ed_mldg3" xml:space="preserve">
+    <value>Le dossier de destination est vérifié pour éviter de remplacer un projet existant.</value>
+  </data>
+  <data name="ed_mldg4" xml:space="preserve">
+    <value>La copie est annulée si le dossier de destination existe déjà.</value>
+  </data>
+  <data name="ed_mldg5" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="ed_mldg6" xml:space="preserve">
+    <value>Le dossier du projet existe déjà. La création a été annulée.</value>
+  </data>
+  <data name="ed_mldg7" xml:space="preserve">
+    <value>Le chemin de destination est libre. Le projet peut être copié.</value>
+  </data>
+  <data name="ed_mldg8" xml:space="preserve">
+    <value>Appuyer sur OK pour poursuivre la copie.</value>
+  </data>
+  <data name="wmtext1" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="wmtext2" xml:space="preserve">
+    <value>Chiffres et point, ex. 1.0</value>
+  </data>
+  <data name="wmtext3" xml:space="preserve">
+    <value>Saisir la signature du créateur.</value>
+  </data>
+  <data name="ed_lb26" xml:space="preserve">
+    <value>Extension pour les nouvelles icônes</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Espace de travail enregistré :</value>
+  </data>
+  <data name="cm_1" xml:space="preserve">
+    <value>Enregistrer le chemin comme espace de travail</value>
+  </data>
+  <data name="cm_2" xml:space="preserve">
+    <value>Revenir au chemin par défaut</value>
+  </data>
+  <data name="cm_3" xml:space="preserve">
+    <value>Accéder à l’espace de travail</value>
+  </data>
+  <data name="mn1_1" xml:space="preserve">
+    <value>Ouvrir Path.txt</value>
+  </data>
+  <data name="mn2_1" xml:space="preserve">
+    <value>Ouvrir SplineID.txt</value>
+  </data>
+  <data name="mn2_2" xml:space="preserve">
+    <value>Enregistrer SplineID.txt</value>
+  </data>
+  <data name="mn1_2" xml:space="preserve">
+    <value>Enregistrer Path.txt</value>
+  </data>
+  <data name="mnedit_1" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="mnedit_2" xml:space="preserve">
+    <value>Rétablir</value>
+  </data>
+  <data name="mnedit_3" xml:space="preserve">
+    <value>Couper</value>
+  </data>
+  <data name="mnedit_4" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="mnedit_5" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="mnedit_6" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="lb13_t" xml:space="preserve">
+    <value>Ce fichier contient les paramètres ExportToEEP utilisés par l’éditeur.</value>
+  </data>
+  <data name="lb14_t" xml:space="preserve">
+    <value>Ce fichier contient les identifiants de spline des créateurs utilisés par l’éditeur.</value>
+  </data>
+  <data name="dt1_1" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="dt1_2" xml:space="preserve">
+    <value>Édition</value>
+  </data>
+  <data name="tb3_t" xml:space="preserve">
+    <value>Modifier Path.txt</value>
+  </data>
+  <data name="tb6_t" xml:space="preserve">
+    <value>Modifier SplineID.txt</value>
+  </data>
+  <data name="selexp" xml:space="preserve">
+    <value>Choisir le dossier d’exportation</value>
+  </data>
+  <data name="mnedit_7" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="mnedit_8" xml:space="preserve">
+    <value>Mise en page</value>
+  </data>
+  <data name="mnedit_9" xml:space="preserve">
+    <value>Aperçu avant impression</value>
+  </data>
+  <data name="btnadd_path.Text" xml:space="preserve">
+    <value>Ajouter un chemin à Path.txt</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>Le dossier Release existe (rouge)</value>
+  </data>
+  <data name="btn12.Text" xml:space="preserve">
+    <value>Revenir au premier onglet</value>
+  </data>
+  <data name="label86.Text" xml:space="preserve">
+    <value>Le dossier UserRelease existe (orange)</value>
+  </data>
+    <data name="lbl1_xfile" xml:space="preserve">
+    <value>Fichiers d’importation X présents. Si le modèle utilise une seule texture conformément aux règles de modélisation, son identifiant peut être modifié dans tous les fichiers .x.ini.</value>
+  </data>
+  <data name="lbl3_xfile" xml:space="preserve">
+    <value>Nouvel identifiant de texture</value>
+  </data>
+  <data name="lbl4_xfile" xml:space="preserve">
+    <value>Identifiant de départ</value>
+  </data>
+  <data name="btn3_xfile" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="btn1_xfile" xml:space="preserve">
+    <value>Remplacer</value>
+  </data>
+  <data name="btn2_xfile" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="lbl2_xfile" xml:space="preserve">
+    <value>.</value>
+  </data>
+</root>

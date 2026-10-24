@@ -1,0 +1,157 @@
+# Numeric IDs remain unchanged. English and French describe the original German category.
+# key|English|French
+i5|Platforms, as track objects or static scenery|Quais, sous forme d’objets de voie ou d’éléments de décor
+i6|Two-aspect semaphore signals: proceed and stop|Signaux mécaniques à deux indications : voie libre et arrêt
+i7|Town houses, including single-family and multi-family houses|Maisons de ville, individuelles ou collectives
+i8|Groups or rows of trees or bushes combined in one model|Groupes ou rangées d’arbres ou de buissons réunis dans un modèle
+i9|Movable goods that can be loaded|Marchandises mobiles pouvant être chargées
+i10|Steam locomotives|Locomotives à vapeur
+i11|Historic passenger coaches|Voitures voyageurs anciennes
+i12|Tank wagons of all types|Wagons-citernes de tous types
+i13|Tram vehicles|Véhicules de tramway
+i14|Vans and minibuses|Fourgonnettes et minibus
+i15|Cranes and other loading equipment|Grues et autres engins de manutention
+i16|Small ships and boats|Petits navires et bateaux
+i17|Civilian propeller aircraft|Avions civils à hélices
+i18|Models with a working clock|Modèles avec une horloge fonctionnelle
+i19|Flags, flagpoles and other national emblems|Drapeaux, mâts de drapeau et autres emblèmes nationaux
+i20|Male figures at work|Personnages masculins au travail
+i21|Male figures on duty|Personnages masculins en service
+i22|Male figures at leisure|Personnages masculins pendant leurs loisirs
+i23|Undefined: the model creator has not yet chosen an appropriate icon|Indéfini : le créateur du modèle n’a pas encore choisi d’icône adaptée
+i24|Technical installations and equipment of all types|Installations et équipements techniques de tous types
+i25|Winter models|Modèles hivernaux
+i26|Emergency vehicles, including ambulances and rescue-service vehicles|Véhicules de secours, notamment ambulances et véhicules des services d’urgence
+i27|Luxury, sports and off-road passenger cars|Voitures haut de gamme, de luxe, de sport et tout-terrain
+i28|Buses for passenger transport|Autobus et autocars destinés au transport de voyageurs
+i29|Goods and objects that cannot be loaded: static models|Marchandises et objets ne pouvant pas être chargés : modèles statiques
+i30|Sound modules: models with an assigned sound|Modules sonores : modèles auxquels un son est associé
+i31|Separate locomotive tenders|Tenders séparés de locomotives
+i32|Diesel locomotives|Locomotives diesel
+i33|Electric locomotives|Locomotives électriques
+i34|Semaphore signals with multiple aspects, up to ten|Signaux mécaniques à indications multiples, jusqu’à dix
+i35|Full and half barriers, and level crossings|Barrières, demi-barrières et passages à niveau
+i36|Rolling stock that can carry other rolling stock|Matériel roulant pouvant accueillir d’autres véhicules ferroviaires
+i37|Splines: routes and objects directly associated with a track|Splines : voies et objets directement liés à une voie
+i38|Bicycles, with or without riders|Bicyclettes, avec ou sans cycliste
+i39|Motorcycles, with or without riders|Motos, avec ou sans conducteur
+i40|Small, compact and mid-size passenger cars|Petites voitures, voitures compactes et berlines de taille moyenne
+i41|Enclosed trucks and road tankers|Camions à caisse fermée et camions-citernes
+i42|Trucks with fixed or tipping open platforms|Camions à plateau ouvert fixe ou basculant
+i43|Tractors and agricultural machinery and equipment|Tracteurs, machines et équipements agricoles
+i44|Civilian tracked vehicles|Véhicules civils à chenilles
+i45|Helicopters|Hélicoptères
+i46|Construction machinery and equipment, tracked or wheeled|Engins et équipements de chantier, à chenilles ou à roues
+i47|Military vehicles, tracked or wheeled|Véhicules militaires, à chenilles ou à roues
+i48|Sailing boats and sailing yachts|Voiliers et yachts à voile
+i49|Individual coniferous trees|Conifères isolés
+i50|Individual deciduous trees|Arbres feuillus isolés
+i51|Shrubs and herbaceous perennials|Arbustes et plantes vivaces
+i52|Pigs and other domesticated farm animals|Porcs et autres animaux d’élevage domestiques
+i53|Horses and other draft or working animals|Chevaux et autres animaux de trait ou de travail
+i54|Dogs and other pets|Chiens et autres animaux de compagnie
+i55|Deer and other non-domesticated wild animals|Cerfs et autres animaux sauvages non domestiqués
+i56|Female child figures|Personnages d’enfants : filles
+i57|Families and other groups of people combined in one model|Familles et autres groupes de personnages réunis dans un modèle
+i58|Female figures on duty|Personnages féminins en service
+i59|Female figures at work|Personnages féminins au travail
+i60|Female figures at leisure|Personnages féminins pendant leurs loisirs
+i61|Additional female figures at leisure|Autres personnages féminins pendant leurs loisirs
+i62|Soldiers and other members of the armed forces|Soldats et autres membres des forces armées
+i63|Factories and other industrial buildings|Usines et autres bâtiments industriels
+i64|Town gates and other historic or listed buildings|Portes de ville et autres bâtiments historiques ou classés
+i65|Churches and other religious buildings|Églises et autres édifices religieux
+i66|Palaces, castles, castle grounds and fortresses|Palais, châteaux, domaines de château et forteresses
+i67|Buildings and other immovable scenery objects|Bâtiments et autres éléments de décor immobiles
+i68|Windmills, other mills, pumping stations and water-lifting installations|Moulins à vent, autres moulins, stations de pompage et installations de relevage d’eau
+i69|Farms: residential and agricultural buildings|Fermes : bâtiments d’habitation et d’exploitation agricole
+i70|Signs and other information or advertising displays|Panneaux et autres supports d’information ou de publicité
+i71|Apartment buildings, terraced houses and similar urban housing|Immeubles collectifs, maisons en bande et autres logements urbains
+i72|Tall buildings, including those below the 27-metre high-rise threshold|Bâtiments élevés, même en dessous du seuil de 27 mètres
+i73|Station buildings, as track objects or static scenery|Bâtiments voyageurs de gare, sous forme d’objets de voie ou de décor
+i74|ICE: powered rail vehicles of the German railways|ICE : véhicules ferroviaires moteurs des chemins de fer allemands
+i75|TGV: powered rail vehicles of the French railways|TGV : véhicules ferroviaires moteurs des chemins de fer français
+i76|Thalys: powered rail vehicles used on international services|Thalys : véhicules ferroviaires moteurs des services internationaux
+i77|Tram vehicles|Véhicules de tramway
+i78|Tunnel entrances, portals and tunnel modules|Entrées, portails et modules de tunnel
+i79|Platform accessories: display boards, ticket machines, clocks and similar fittings|Accessoires de quai : panneaux d’affichage, distributeurs de billets, horloges et autres équipements
+i80|Refrigerated wagons of all types|Wagons frigorifiques de tous types
+i81|Open goods wagons with side walls|Wagons de marchandises ouverts à parois latérales
+i82|Stake wagons of all types|Wagons à ranchers de tous types
+i83|Powder and silo wagons of all types|Wagons à pulvérulents et wagons-silos de tous types
+i84|Covered goods wagons of all types|Wagons de marchandises couverts de tous types
+i85|Flat wagons and container wagons|Wagons plats et wagons porte-conteneurs
+i86|Older postal vans and luggage-compartment coaches|Anciens fourgons postaux et voitures à compartiment à bagages
+i87|Modern passenger coaches, from era IV onwards|Voitures voyageurs modernes, à partir de l’époque IV
+i88|Premium-comfort coaches, such as TEE coaches|Voitures de grand confort, notamment les voitures TEE
+i89|Local and regional passenger coaches|Voitures voyageurs des services locaux et régionaux
+i90|Suburban railway and metro coaches|Voitures de train de banlieue et de métro
+i91|Bus and tram accessories as static scenery: stops, boarding islands and similar objects|Accessoires statiques de bus et de tramway : arrêts, îlots d’embarquement et objets similaires
+i92|Metro accessories, such as stations, as static scenery or track objects|Accessoires de métro, notamment les stations, sous forme de décor ou d’objets de voie
+i93|Suburban railway accessories, such as stations, as static scenery or track objects|Accessoires de train de banlieue, notamment les stations, sous forme de décor ou d’objets de voie
+i94|Double-slip point indicators (Wn), as static scenery or track objects|Indicateurs de traversée-jonction double (Wn), sous forme de décor ou d’objets de voie
+i95|Point indicators, lanterns and point motors, as static scenery or track objects|Indicateurs, lanternes et moteurs d’aiguillage, sous forme de décor ou d’objets de voie
+i96|Overhead-line masts, cantilevers, cross-spans and gantries|Poteaux, consoles, portiques et supports transversaux de caténaire
+i97|Colour-light main and distant signals according to DS/DV 301|Signaux lumineux principaux et d’annonce selon DS/DV 301
+i98|Hl colour-light main and distant signals according to DV 301|Signaux lumineux principaux et d’annonce du système Hl selon DV 301
+i99|Ks combined signals according to DS/DV 301|Signaux combinés du système Ks selon DS/DV 301
+i100|SBB main signals, system L, according to FDV (R 3001-15)|Signaux principaux CFF, système L, selon FDV (R 3001-15)
+i101|SBB distant signals, system L, according to FDV (R 3001-15)|Signaux avancés CFF, système L, selon FDV (R 3001-15)
+i102|Combined main and distant signals|Combinaisons de signaux principaux et avancés
+i103|Railway signal boards, implemented as signals or static scenery|Pancartes de signalisation ferroviaire, sous forme de signaux ou de décor
+i104|Road signs and traffic-information boards, as static scenery or signals|Panneaux routiers et d’information sur la circulation, sous forme de décor ou de signaux
+i105|Traffic lights, implemented as signals or static scenery|Feux de circulation, sous forme de signaux ou de décor
+i106|Maritime accessories, such as buoys and boathouses|Accessoires maritimes, notamment bouées et hangars à bateaux
+i107|Dangerous goods and containers for dangerous goods|Marchandises dangereuses et leurs conteneurs
+i108|Flowers, flower beds and garden plants|Fleurs, parterres de fleurs et plantes de jardin
+i109|Civilian jet aircraft|Avions civils à réaction
+i110|Slow aircraft and airborne objects: balloons, airships and kites|Aéronefs et objets volants lents : ballons, dirigeables et cerfs-volants
+i111|Military aircraft, regardless of propulsion type|Avions militaires, quel que soit leur mode de propulsion
+i112|Steel bridges and other open-frame bridges, including wooden bridges|Ponts en acier et autres ponts à structure ouverte, y compris en bois
+i113|Stone bridges and other solid-structure bridges, including concrete bridges|Ponts en pierre et autres ponts à structure pleine, y compris en béton
+i114|Locomotive sheds and depot buildings, including halls and repair workshops|Remises à locomotives et bâtiments de dépôt, notamment halles et ateliers de réparation
+i115|Signal boxes and interlocking buildings|Postes d’aiguillage
+i116|Public buildings|Bâtiments publics
+i117|Grass and other low-growing non-woody plants|Herbe et autres plantes basses non ligneuses
+i118|Jetties and landing stages, as track objects or static scenery|Pontons et débarcadères, sous forme d’objets de voie ou de décor
+i119|Mountains and other rock or earth formations|Montagnes et autres formations rocheuses ou terrestres
+i120|Static and animated water surfaces|Surfaces d’eau statiques et animées
+i121|Fire-service vehicles and equipment|Véhicules et équipements des services d’incendie
+i122|Models with a fire effect|Modèles avec un effet d’incendie
+i123|Babies and toddlers of any gender|Bébés et jeunes enfants, quel que soit leur sexe
+i124|Male child figures|Personnages d’enfants : garçons
+i125|Horse-drawn vehicles, carts and similar wagons|Véhicules hippomobiles, charrettes et autres chariots
+i126|Elephants and other wild animals not native to Europe, including zoo and circus animals|Éléphants et autres animaux sauvages non originaires d’Europe, y compris les animaux de zoo et de cirque
+i127|Trailers, as rolling stock or static scenery|Remorques, sous forme de véhicules ou de décor
+i128|Street lamps and other lighting: park lamps, track lighting and floodlights|Lampadaires et autres éclairages : parcs, voies et projecteurs
+i129|Walls, trackside walls, arcades and similar structures|Murs, murs bordant les voies, arcades et structures similaires
+i130|ÖBB railcars and multiple units|Autorails et automotrices ÖBB
+i131|DB railcars and multiple units|Autorails et automotrices DB
+i132|SBB railcars and multiple units|Autorails et automotrices CFF
+i133|Other international railcars and multiple units|Autres autorails et automotrices internationaux
+i134|Fences, gates and other fixed non-masonry barriers|Clôtures, portillons et autres barrières fixes non maçonnées
+i135|Electrical warning signs, and installations and equipment directly associated with electricity|Panneaux de danger électrique et installations ou équipements directement liés à l’électricité
+i136|Radiation warning signs, and associated installations and equipment|Panneaux de danger radioactif et installations ou équipements associés
+i137|Containers, drums, cisterns and similar vessels|Conteneurs, fûts, citernes et autres récipients
+i138|Skyscrapers and other very tall buildings|Gratte-ciel et autres bâtiments de très grande hauteur
+i139|Factories and industrial buildings used for manufacturing, production or extraction|Usines et bâtiments industriels destinés à la fabrication, à la production ou à l’extraction
+i140|Warehouses and other industrial storage buildings|Entrepôts et autres bâtiments industriels de stockage
+i141|Industrial installations, equipment, apparatus and machinery|Installations, équipements, appareils et machines industriels
+i142|Parks and landscaped urban green spaces|Parcs et espaces verts urbains aménagés
+i143|Large ships, including cargo ships|Grands navires, y compris les cargos
+i144|Roosters and other small domestic animals, especially poultry|Coqs et autres petits animaux domestiques, notamment les volailles
+i145|Installation: internal category for models requiring additional components|Installation : catégorie interne des modèles nécessitant des composants supplémentaires
+i146|Colour palette: models with one or more interchangeable textures|Palette de couleurs : modèles comportant une ou plusieurs textures interchangeables
+i147|Internal representation of mobile-camera routes, from EEP 8.0|Représentation interne des parcours de caméras mobiles, à partir d’EEP 8.0
+i148|Road splines, from EEP 8.0|Splines routières, à partir d’EEP 8.0
+i149|Tram-track splines, from EEP 8.0|Splines de voies de tramway, à partir d’EEP 8.0
+i150|Waterway splines, from EEP 8.0|Splines de voies navigables, à partir d’EEP 8.0
+i151|Static-camera model in the 3D editor, from EEP 8.0|Modèle de caméra fixe dans l’éditeur 3D, à partir d’EEP 8.0
+i152|Dynamic-camera model in the 3D editor, from EEP 8.0|Modèle de caméra dynamique dans l’éditeur 3D, à partir d’EEP 8.0
+i153|Mobile-camera model in the 3D editor, from EEP 8.0|Modèle de caméra mobile dans l’éditeur 3D, à partir d’EEP 8.0
+i154|Information models: static scenery with 3D text display, from EEP 8.2|Modèles d’information : décor statique pouvant afficher du texte en 3D, à partir d’EEP 8.2
+country19|Great Britain|Grande-Bretagne
+country26|Liechtenstein|Liechtenstein
+country28|Luxembourg|Luxembourg
+country37|Sweden|Suède
+country42|Other countries|Autres pays

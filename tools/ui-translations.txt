@@ -1,0 +1,108 @@
+# key|English|French
+tabPage4.Text|About|À propos
+tabPage4.ToolTip|About the program|À propos du programme
+tabPage2.Text|Project snapshots|Instantanés des projets
+tabPage5.Text|Automatic backups|Sauvegardes automatiques
+label4.Text|WARNING: project deletion is enabled|ATTENTION : la suppression de projets est activée
+label6.Text|Saved designer signature:|Signature du créateur enregistrée :
+pictureBox2.tt|Minimize|Réduire
+toolStripMenuItem3.Text|Open in File Explorer|Ouvrir dans l’Explorateur de fichiers
+userBackupToolStripMenuItem.Text|Project snapshots|Instantanés des projets
+dataGridViewTextBoxColumn2.HeaderText|Saved project snapshots|Instantanés de projets enregistrés
+toolStripLabel1.Text|Select an entry, then right-click to delete its ZIP file after confirmation.|Sélectionner une entrée, puis faire un clic droit pour supprimer son fichier ZIP après confirmation.
+toolStripLabel2.Text|Select an entry, then right-click to delete its ZIP file after confirmation.|Sélectionner une entrée, puis faire un clic droit pour supprimer son fichier ZIP après confirmation.
+label44.Text|If the country of origin is not listed, use the value "Others". Example: Peru, despite its standard-gauge railway reaching 4,781 m.|Si le pays d’origine n’est pas répertorié, utiliser la valeur « Others ». Exemple : le Pérou, malgré sa ligne à voie normale culminant à 4 781 m.
+button2.Text_option|Browse for folder|Parcourir les dossiers
+label2.Text_option|Caution: enable this function at your own risk.|Attention : activez cette fonction à vos risques et périls.
+label3.Text_option|Last spline ID|Dernier identifiant de spline
+label4.Text_option|Designer signature|Signature du créateur
+checkBox1.Text_option|Enable project deletion|Activer la suppression de projets
+m01.Text|Model creator|Créateur du modèle
+m1.Text|Model name in English|Nom du modèle en anglais
+m2.Text|Model name in German|Nom du modèle en allemand
+m3.Text|Model name in French|Nom du modèle en français
+m4.Text|Model name in Polish|Nom du modèle en polonais
+d1.Text|Description in English|Description en anglais
+d2.Text|Description in German|Description en allemand
+d3.Text|Description in French|Description en français
+d4.Text|Description in Polish|Description en polonais
+p1.Text|PDF documentation in English|Documentation PDF en anglais
+p2.Text|PDF documentation in German|Documentation PDF en allemand
+p3.Text|PDF documentation in French|Documentation PDF en français
+p4.Text|PDF documentation in Polish|Documentation PDF en polonais
+edverweis1|Maximum 23 characters; an underscore and the designer code will be appended.|23 caractères maximum ; un trait de soulignement et le code du créateur seront ajoutés.
+edverweis2|Contains special characters or spaces|Contient des caractères spéciaux ou des espaces
+ed_t2|Duplicate|Dupliquer
+ed_saerch|Browse …|Parcourir …
+ed_lb72|Last used spline ID:|Dernière ID de spline utilisée :
+ed_i|No internet connection. Google translation is unavailable.|Pas de connexion Internet. La traduction Google est indisponible.
+ed_in|Google translation available|Traduction Google disponible
+ed_tb3|Translate description|Traduire la description
+ed_lb77|An English text is required. Enter model names and descriptions without underscores.|Un texte anglais est requis. Saisir les noms de modèles et les descriptions sans traits de soulignement.
+ed_info1|Enter a description in English.|Saisir une description en anglais.
+ed_info2|Enter a model name in English.|Saisir un nom de modèle en anglais.
+tabP2|Icons|Icônes
+tabP4|HN spline IDs|Identifiants de spline HN
+tabP5|Designer spline IDs|Identifiants de spline des créateurs
+label1_h|Choose the project folder.|Choisir le dossier du projet.
+label2.Text|Project folder|Dossier du projet
+mldg1|No project folder is selected. A valid project folder contains System.ini and the corresponding project files, shown in the lower-left list.|Aucun dossier de projet n’est sélectionné. Un dossier valide contient System.ini et les fichiers du projet, affichés dans la liste en bas à gauche.
+msgbox1|Warning|Attention
+mldg2|There is no entry to delete.|Aucune entrée à supprimer.
+mldg3|Delete the selected backup file?|Supprimer le fichier de sauvegarde sélectionné ?
+mldg4|Delete the selected snapshot?|Supprimer l’instantané sélectionné ?
+mldg5|Move the selected project to the Recycle Bin?|Déplacer le projet sélectionné vers la Corbeille ?
+mldg6|WARNING: this is not a project folder.|ATTENTION : ce dossier n’est pas un dossier de projet.
+mldg4_up|Projektduplicator 2026|Projektduplicator 2026
+ed_gb1|Spline type (relevant to roads and dirt tracks)|Type de spline (routes et chemins de terre)
+ed_rb1|One-way splines|Splines à sens unique
+ed_rb2|Standard two-lane splines|Splines standard à deux voies
+ed_cb1|Add OneWay entries to the spline|Ajouter les entrées OneWay à la spline
+ed_cb3|Use one PDF for all languages|Utiliser un seul PDF pour toutes les langues
+ed_mldg1|Enter the designer code.|Saisir le code du créateur.
+ed_mldg2|The project will be backed up before copying.|Le projet sera sauvegardé avant la copie.
+ed_mldg3|The destination is checked for an existing project folder.|Le dossier de destination est vérifié pour éviter de remplacer un projet existant.
+ed_mldg4|Copying is cancelled if the destination folder already exists.|La copie est annulée si le dossier de destination existe déjà.
+ed_mldg6|The project folder already exists. Creation has been cancelled.|Le dossier du projet existe déjà. La création a été annulée.
+ed_mldg7|The destination path is available. The project can be copied.|Le chemin de destination est libre. Le projet peut être copié.
+ed_mldg8|Press OK to continue copying.|Appuyer sur OK pour poursuivre la copie.
+ed_spmsg1|Creating the ID list. Please wait.|Création de la liste des identifiants. Veuillez patienter.
+ed_spmsg2|In the program folder, this also|Dans le dossier du programme, cette opération
+ed_spmsg3|creates HN_splineID.txt|crée également le fichier HN_splineID.txt
+ed_spmsg4|or updates the existing list.|ou complète la liste existante.
+ed_komsg2|SplineID.txt does not exist yet. This feature is intended for model creators.|SplineID.txt n’existe pas encore. Cette fonction est destinée aux créateurs de modèles.
+ed_komsg3|Alternatively, rename Demo_splineid.txt and add your own entries.|Il est aussi possible de renommer Demo_splineid.txt et d’ajouter ses propres entrées.
+ed_komsg1|Create the file using UTF-8 encoding, for example with Notepad++.|Créer le fichier avec l’encodage UTF-8, par exemple dans Notepad++.
+wmtext2|Digits and decimal point, e.g. 1.0|Chiffres et point, ex. 1.0
+wmtext3|Enter the designer signature.|Saisir la signature du créateur.
+ed_lb26|Extension for the new icons|Extension pour les nouvelles icônes
+label8.Text|Saved workspace:|Espace de travail enregistré :
+cm_1|Save path as workspace|Enregistrer le chemin comme espace de travail
+cm_2|Switch to the default path|Revenir au chemin par défaut
+cm_3|Switch to the workspace|Accéder à l’espace de travail
+mn1_1|Open Path.txt|Ouvrir Path.txt
+mn1_2|Save Path.txt|Enregistrer Path.txt
+mn2_1|Open SplineID.txt|Ouvrir SplineID.txt
+mn2_2|Save SplineID.txt|Enregistrer SplineID.txt
+mnedit_1|Undo|Annuler
+mnedit_2|Redo|Rétablir
+mnedit_3|Cut|Couper
+mnedit_4|Copy|Copier
+mnedit_5|Paste|Coller
+lb13_t|This file provides the ExportToEEP settings used by the editor.|Ce fichier contient les paramètres ExportToEEP utilisés par l’éditeur.
+lb14_t|This file provides the designers’ spline IDs used by the editor.|Ce fichier contient les identifiants de spline des créateurs utilisés par l’éditeur.
+dt1_1|File|Fichier
+dt1_2|Edit|Édition
+tb3_t|Edit Path.txt|Modifier Path.txt
+tb6_t|Edit SplineID.txt|Modifier SplineID.txt
+selexp|Choose export folder|Choisir le dossier d’exportation
+mnedit_7|Print|Imprimer
+mnedit_8|Page setup|Mise en page
+label82.Text|Release folder exists (red)|Le dossier Release existe (rouge)
+btn12.Text|Back to the first tab|Revenir au premier onglet
+btn1_xfile|Replace|Remplacer
+btn2_xfile|Apply|Appliquer
+btn3_xfile|Close|Fermer
+lbl1_xfile|X-import files found. If the model uses a single texture as required by the modelling guidelines, its ID can be changed in all .x.ini files.|Fichiers d’importation X présents. Si le modèle utilise une seule texture conformément aux règles de modélisation, son identifiant peut être modifié dans tous les fichiers .x.ini.
+lbl3_xfile|New texture ID|Nouvel identifiant de texture
+lbl4_xfile|Starting ID|Identifiant de départ

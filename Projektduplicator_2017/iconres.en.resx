@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="country1" xml:space="preserve">
+    <value>Austria</value>
+  </data>
+	<data name="country2" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+	<data name="country3" xml:space="preserve">
+    <value>Bosnia and Herzegovina</value>
+  </data>
+	<data name="country4" xml:space="preserve">
+    <value>Belgium</value>
+  </data>
+	<data name="country5" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+	<data name="country6" xml:space="preserve">
+    <value>Brazil</value>
+  </data>
+	<data name="country7" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+	<data name="country8" xml:space="preserve">
+    <value>Switzerland</value>
+  </data>
+	<data name="country9" xml:space="preserve">
+    <value>China</value>
+  </data>
+	<data name="country10" xml:space="preserve">
+    <value>Cyprus</value>
+  </data>
+	<data name="country11" xml:space="preserve">
+    <value>Czechoslovakia</value>
+  </data>
+	<data name="country12" xml:space="preserve">
+    <value>Czech Republic</value>
+  </data>
+	<data name="country13" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+	<data name="country14" xml:space="preserve">
+    <value>Denmark</value>
+  </data>
+	<data name="country15" xml:space="preserve">
+    <value>Estonia</value>
+  </data>
+	<data name="country16" xml:space="preserve">
+    <value>Spain</value>
+  </data>
+	<data name="country17" xml:space="preserve">
+    <value>Finland</value>
+  </data>
+	<data name="country18" xml:space="preserve">
+    <value>France</value>
+  </data>
+	<data name="country19" xml:space="preserve">
+    <value>Great Britain</value>
+  </data>
+	<data name="country20" xml:space="preserve">
+    <value>Greece</value>
+  </data>
+	<data name="country21" xml:space="preserve">
+    <value>Croatia</value>
+  </data>
+	<data name="country22" xml:space="preserve">
+    <value>Hungary</value>
+  </data>
+	<data name="country23" xml:space="preserve">
+    <value>Ireland</value>
+  </data>
+	<data name="country24" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+	<data name="country25" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+	<data name="country26" xml:space="preserve">
+    <value>Liechtenstein</value>
+  </data>
+	<data name="country27" xml:space="preserve">
+    <value>Lithuania</value>
+  </data>
+	<data name="country28" xml:space="preserve">
+    <value>Luxembourg</value>
+  </data>
+	<data name="country29" xml:space="preserve">
+    <value>Latvia</value>
+  </data>
+	<data name="country30" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+	<data name="country31" xml:space="preserve">
+    <value>Malta</value>
+  </data>
+	<data name="country32" xml:space="preserve">
+    <value>Poland</value>
+  </data>
+	<data name="country33" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+	<data name="country34" xml:space="preserve">
+    <value>Romania</value>
+  </data>
+	<data name="country35" xml:space="preserve">
+    <value>Serbia</value>
+  </data>
+	<data name="country36" xml:space="preserve">
+    <value>India</value>
+  </data>
+	<data name="country37" xml:space="preserve">
+    <value>Sweden</value>
+  </data>
+	<data name="country38" xml:space="preserve">
+    <value>Slovenia</value>
+  </data>
+	<data name="country39" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+	<data name="country40" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+	<data name="country41" xml:space="preserve">
+    <value>USA</value>
+  </data>
+	<data name="country42" xml:space="preserve">
+    <value>Other countries</value>
+  </data>
+	<data name="country43" xml:space="preserve">
+    <value>Mexico</value>
+  </data>
+	<data name="country44" xml:space="preserve">
+    <value>Slovakia</value>
+  </data>
+	<data name="country45" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+	<data name="i5" xml:space="preserve">
+		<value>Platforms, as track objects or static scenery</value>
+	</data>
+	<data name="i6" xml:space="preserve">
+		<value>Two-aspect semaphore signals: proceed and stop</value>
+	</data>
+	<data name="i7" xml:space="preserve">
+		<value>Town houses, including single-family and multi-family houses</value>
+	</data>
+	<data name="i8" xml:space="preserve">
+		<value>Groups or rows of trees or bushes combined in one model</value>
+	</data>
+	<data name="i9" xml:space="preserve">
+		<value>Movable goods that can be loaded</value>
+	</data>
+	<data name="i10" xml:space="preserve">
+		<value>Steam locomotives</value>
+	</data>
+	<data name="i11" xml:space="preserve">
+		<value>Historic passenger coaches</value>
+	</data>
+	<data name="i12" xml:space="preserve">
+		<value>Tank wagons of all types</value>
+	</data>
+	<data name="i13" xml:space="preserve">
+		<value>Tram vehicles</value>
+	</data>
+	<data name="i14" xml:space="preserve">
+		<value>Vans and minibuses</value>
+	</data>
+	<data name="i15" xml:space="preserve">
+		<value>Cranes and other loading equipment</value>
+	</data>
+	<data name="i16" xml:space="preserve">
+		<value>Small ships and boats</value>
+	</data>
+	<data name="i17" xml:space="preserve">
+		<value>Civilian propeller aircraft</value>
+	</data>
+	<data name="i18" xml:space="preserve">
+		<value>Models with a working clock</value>
+	</data>
+	<data name="i19" xml:space="preserve">
+		<value>Flags, flagpoles and other national emblems</value>
+	</data>
+	<data name="i20" xml:space="preserve">
+		<value>Male figures at work</value>
+	</data>
+	<data name="i21" xml:space="preserve">
+		<value>Male figures on duty</value>
+	</data>
+	<data name="i22" xml:space="preserve">
+		<value>Male figures at leisure</value>
+	</data>
+	<data name="i23" xml:space="preserve">
+		<value>Undefined: the model creator has not yet chosen an appropriate icon</value>
+	</data>
+	<data name="i24" xml:space="preserve">
+		<value>Technical installations and equipment of all types</value>
+	</data>
+	<data name="i25" xml:space="preserve">
+		<value>Winter models</value>
+	</data>
+	<data name="i26" xml:space="preserve">
+		<value>Emergency vehicles, including ambulances and rescue-service vehicles</value>
+	</data>
+	<data name="i27" xml:space="preserve">
+		<value>Luxury, sports and off-road passenger cars</value>
+	</data>
+	<data name="i28" xml:space="preserve">
+		<value>Buses for passenger transport</value>
+	</data>
+	<data name="i29" xml:space="preserve">
+		<value>Goods and objects that cannot be loaded: static models</value>
+	</data>
+	<data name="i30" xml:space="preserve">
+		<value>Sound modules: models with an assigned sound</value>
+	</data>
+	<data name="i31" xml:space="preserve">
+		<value>Separate locomotive tenders</value>
+	</data>
+	<data name="i32" xml:space="preserve">
+		<value>Diesel locomotives</value>
+	</data>
+	<data name="i33" xml:space="preserve">
+		<value>Electric locomotives</value>
+	</data>
+	<data name="i34" xml:space="preserve">
+		<value>Semaphore signals with multiple aspects, up to ten</value>
+	</data>
+	<data name="i35" xml:space="preserve">
+		<value>Full and half barriers, and level crossings</value>
+	</data>
+	<data name="i36" xml:space="preserve">
+		<value>Rolling stock that can carry other rolling stock</value>
+	</data>
+	<data name="i37" xml:space="preserve">
+		<value>Splines: routes and objects directly associated with a track</value>
+	</data>
+	<data name="i38" xml:space="preserve">
+		<value>Bicycles, with or without riders</value>
+	</data>
+	<data name="i39" xml:space="preserve">
+		<value>Motorcycles, with or without riders</value>
+	</data>
+	<data name="i40" xml:space="preserve">
+		<value>Small, compact and mid-size passenger cars</value>
+	</data>
+	<data name="i41" xml:space="preserve">
+		<value>Enclosed trucks and road tankers</value>
+	</data>
+	<data name="i42" xml:space="preserve">
+		<value>Trucks with fixed or tipping open platforms</value>
+	</data>
+	<data name="i43" xml:space="preserve">
+		<value>Tractors and agricultural machinery and equipment</value>
+	</data>
+	<data name="i44" xml:space="preserve">
+		<value>Civilian tracked vehicles</value>
+	</data>
+	<data name="i45" xml:space="preserve">
+		<value>Helicopters</value>
+	</data>
+	<data name="i46" xml:space="preserve">
+		<value>Construction machinery and equipment, tracked or wheeled</value>
+	</data>
+	<data name="i47" xml:space="preserve">
+		<value>Military vehicles, tracked or wheeled</value>
+	</data>
+	<data name="i48" xml:space="preserve">
+		<value>Sailing boats and sailing yachts</value>
+	</data>
+	<data name="i49" xml:space="preserve">
+		<value>Individual coniferous trees</value>
+	</data>
+	<data name="i50" xml:space="preserve">
+		<value>Individual deciduous trees</value>
+	</data>
+	<data name="i51" xml:space="preserve">
+		<value>Shrubs and herbaceous perennials</value>
+	</data>
+	<data name="i52" xml:space="preserve">
+		<value>Pigs and other domesticated farm animals</value>
+	</data>
+	<data name="i53" xml:space="preserve">
+		<value>Horses and other draft or working animals</value>
+	</data>
+	<data name="i54" xml:space="preserve">
+		<value>Dogs and other pets</value>
+	</data>
+	<data name="i55" xml:space="preserve">
+		<value>Deer and other non-domesticated wild animals</value>
+	</data>
+	<data name="i56" xml:space="preserve">
+		<value>Female child figures</value>
+	</data>
+	<data name="i57" xml:space="preserve">
+		<value>Families and other groups of people combined in one model</value>
+	</data>
+	<data name="i58" xml:space="preserve">
+		<value>Female figures on duty</value>
+	</data>
+	<data name="i59" xml:space="preserve">
+		<value>Female figures at work</value>
+	</data>
+	<data name="i60" xml:space="preserve">
+		<value>Female figures at leisure</value>
+	</data>
+	<data name="i61" xml:space="preserve">
+		<value>Additional female figures at leisure</value>
+	</data>
+	<data name="i62" xml:space="preserve">
+		<value>Soldiers and other members of the armed forces</value>
+	</data>
+	<data name="i63" xml:space="preserve">
+		<value>Factories and other industrial buildings</value>
+	</data>
+	<data name="i64" xml:space="preserve">
+		<value>Town gates and other historic or listed buildings</value>
+	</data>
+	<data name="i65" xml:space="preserve">
+		<value>Churches and other religious buildings</value>
+	</data>
+	<data name="i66" xml:space="preserve">
+		<value>Palaces, castles, castle grounds and fortresses</value>
+	</data>
+	<data name="i67" xml:space="preserve">
+		<value>Buildings and other immovable scenery objects</value>
+	</data>
+	<data name="i68" xml:space="preserve">
+		<value>Windmills, other mills, pumping stations and water-lifting installations</value>
+	</data>
+	<data name="i69" xml:space="preserve">
+		<value>Farms: residential and agricultural buildings</value>
+	</data>
+	<data name="i70" xml:space="preserve">
+		<value>Signs and other information or advertising displays</value>
+	</data>
+	<data name="i71" xml:space="preserve">
+		<value>Apartment buildings, terraced houses and similar urban housing</value>
+	</data>
+	<data name="i72" xml:space="preserve">
+		<value>Tall buildings, including those below the 27-metre high-rise threshold</value>
+	</data>
+	<data name="i73" xml:space="preserve">
+		<value>Station buildings, as track objects or static scenery</value>
+	</data>
+	<data name="i74" xml:space="preserve">
+		<value>ICE: powered rail vehicles of the German railways</value>
+	</data>
+	<data name="i75" xml:space="preserve">
+		<value>TGV: powered rail vehicles of the French railways</value>
+	</data>
+	<data name="i76" xml:space="preserve">
+		<value>Thalys: powered rail vehicles used on international services</value>
+	</data>
+	<data name="i77" xml:space="preserve">
+		<value>Tram vehicles</value>
+	</data>
+	<data name="i78" xml:space="preserve">
+		<value>Tunnel entrances, portals and tunnel modules</value>
+	</data>
+	<data name="i79" xml:space="preserve">
+		<value>Platform accessories: display boards, ticket machines, clocks and similar fittings</value>
+	</data>
+	<data name="i80" xml:space="preserve">
+		<value>Refrigerated wagons of all types</value>
+	</data>
+	<data name="i81" xml:space="preserve">
+		<value>Open goods wagons with side walls</value>
+	</data>
+	<data name="i82" xml:space="preserve">
+		<value>Stake wagons of all types</value>
+	</data>
+	<data name="i83" xml:space="preserve">
+		<value>Powder and silo wagons of all types</value>
+	</data>
+	<data name="i84" xml:space="preserve">
+		<value>Covered goods wagons of all types</value>
+	</data>
+	<data name="i85" xml:space="preserve">
+		<value>Flat wagons and container wagons</value>
+	</data>
+	<data name="i86" xml:space="preserve">
+		<value>Older postal vans and luggage-compartment coaches</value>
+	</data>
+	<data name="i87" xml:space="preserve">
+		<value>Modern passenger coaches, from era IV onwards</value>
+	</data>
+	<data name="i88" xml:space="preserve">
+		<value>Premium-comfort coaches, such as TEE coaches</value>
+	</data>
+	<data name="i89" xml:space="preserve">
+		<value>Local and regional passenger coaches</value>
+	</data>
+	<data name="i90" xml:space="preserve">
+		<value>Suburban railway and metro coaches</value>
+	</data>
+	<data name="i91" xml:space="preserve">
+		<value>Bus and tram accessories as static scenery: stops, boarding islands and similar objects</value>
+	</data>
+	<data name="i92" xml:space="preserve">
+		<value>Metro accessories, such as stations, as static scenery or track objects</value>
+	</data>
+	<data name="i93" xml:space="preserve">
+		<value>Suburban railway accessories, such as stations, as static scenery or track objects</value>
+	</data>
+	<data name="i94" xml:space="preserve">
+		<value>Double-slip point indicators (Wn), as static scenery or track objects</value>
+	</data>
+	<data name="i95" xml:space="preserve">
+		<value>Point indicators, lanterns and point motors, as static scenery or track objects</value>
+	</data>
+	<data name="i96" xml:space="preserve">
+		<value>Overhead-line masts, cantilevers, cross-spans and gantries</value>
+	</data>
+	<data name="i97" xml:space="preserve">
+		<value>Colour-light main and distant signals according to DS/DV 301</value>
+	</data>
+	<data name="i98" xml:space="preserve">
+		<value>Hl colour-light main and distant signals according to DV 301</value>
+	</data>
+	<data name="i99" xml:space="preserve">
+		<value>Ks combined signals according to DS/DV 301</value>
+	</data>
+	<data name="i100" xml:space="preserve">
+		<value>SBB main signals, system L, according to FDV (R 3001-15)</value>
+	</data>
+	<data name="i101" xml:space="preserve">
+		<value>SBB distant signals, system L, according to FDV (R 3001-15)</value>
+	</data>
+	<data name="i102" xml:space="preserve">
+		<value>Combined main and distant signals</value>
+	</data>
+	<data name="i103" xml:space="preserve">
+		<value>Railway signal boards, implemented as signals or static scenery</value>
+	</data>
+	<data name="i104" xml:space="preserve">
+		<value>Road signs and traffic-information boards, as static scenery or signals</value>
+	</data>
+	<data name="i105" xml:space="preserve">
+		<value>Traffic lights, implemented as signals or static scenery</value>
+	</data>
+	<data name="i106" xml:space="preserve">
+		<value>Maritime accessories, such as buoys and boathouses</value>
+	</data>
+	<data name="i107" xml:space="preserve">
+		<value>Dangerous goods and containers for dangerous goods</value>
+	</data>
+	<data name="i108" xml:space="preserve">
+		<value>Flowers, flower beds and garden plants</value>
+	</data>
+	<data name="i109" xml:space="preserve">
+		<value>Civilian jet aircraft</value>
+	</data>
+	<data name="i110" xml:space="preserve">
+		<value>Slow aircraft and airborne objects: balloons, airships and kites</value>
+	</data>
+	<data name="i111" xml:space="preserve">
+		<value>Military aircraft, regardless of propulsion type</value>
+	</data>
+	<data name="i112" xml:space="preserve">
+		<value>Steel bridges and other open-frame bridges, including wooden bridges</value>
+	</data>
+	<data name="i113" xml:space="preserve">
+		<value>Stone bridges and other solid-structure bridges, including concrete bridges</value>
+	</data>
+	<data name="i114" xml:space="preserve">
+		<value>Locomotive sheds and depot buildings, including halls and repair workshops</value>
+	</data>
+	<data name="i115" xml:space="preserve">
+		<value>Signal boxes and interlocking buildings</value>
+	</data>
+	<data name="i116" xml:space="preserve">
+		<value>Public buildings</value>
+	</data>
+	<data name="i117" xml:space="preserve">
+		<value>Grass and other low-growing non-woody plants</value>
+	</data>
+	<data name="i118" xml:space="preserve">
+		<value>Jetties and landing stages, as track objects or static scenery</value>
+	</data>
+	<data name="i119" xml:space="preserve">
+		<value>Mountains and other rock or earth formations</value>
+	</data>
+	<data name="i120" xml:space="preserve">
+		<value>Static and animated water surfaces</value>
+	</data>
+	<data name="i121" xml:space="preserve">
+		<value>Fire-service vehicles and equipment</value>
+	</data>
+	<data name="i122" xml:space="preserve">
+		<value>Models with a fire effect</value>
+	</data>
+	<data name="i123" xml:space="preserve">
+		<value>Babies and toddlers of any gender</value>
+	</data>
+	<data name="i124" xml:space="preserve">
+		<value>Male child figures</value>
+	</data>
+	<data name="i125" xml:space="preserve">
+		<value>Horse-drawn vehicles, carts and similar wagons</value>
+	</data>
+	<data name="i126" xml:space="preserve">
+		<value>Elephants and other wild animals not native to Europe, including zoo and circus animals</value>
+	</data>
+	<data name="i127" xml:space="preserve">
+		<value>Trailers, as rolling stock or static scenery</value>
+	</data>
+	<data name="i128" xml:space="preserve">
+		<value>Street lamps and other lighting: park lamps, track lighting and floodlights</value>
+	</data>
+	<data name="i129" xml:space="preserve">
+		<value>Walls, trackside walls, arcades and similar structures</value>
+	</data>
+	<data name="i130" xml:space="preserve">
+		<value>ÖBB railcars and multiple units</value>
+	</data>
+	<data name="i131" xml:space="preserve">
+		<value>DB railcars and multiple units</value>
+	</data>
+	<data name="i132" xml:space="preserve">
+		<value>SBB railcars and multiple units</value>
+	</data>
+	<data name="i133" xml:space="preserve">
+		<value>Other international railcars and multiple units</value>
+	</data>
+	<data name="i134" xml:space="preserve">
+		<value>Fences, gates and other fixed non-masonry barriers</value>
+	</data>
+	<data name="i135" xml:space="preserve">
+		<value>Electrical warning signs, and installations and equipment directly associated with electricity</value>
+	</data>
+	<data name="i136" xml:space="preserve">
+		<value>Radiation warning signs, and associated installations and equipment</value>
+	</data>
+	<data name="i137" xml:space="preserve">
+		<value>Containers, drums, cisterns and similar vessels</value>
+	</data>
+	<data name="i138" xml:space="preserve">
+		<value>Skyscrapers and other very tall buildings</value>
+	</data>
+	<data name="i139" xml:space="preserve">
+		<value>Factories and industrial buildings used for manufacturing, production or extraction</value>
+	</data>
+	<data name="i140" xml:space="preserve">
+		<value>Warehouses and other industrial storage buildings</value>
+	</data>
+	<data name="i141" xml:space="preserve">
+		<value>Industrial installations, equipment, apparatus and machinery</value>
+	</data>
+	<data name="i142" xml:space="preserve">
+		<value>Parks and landscaped urban green spaces</value>
+	</data>
+	<data name="i143" xml:space="preserve">
+		<value>Large ships, including cargo ships</value>
+	</data>
+	<data name="i144" xml:space="preserve">
+		<value>Roosters and other small domestic animals, especially poultry</value>
+	</data>
+	<data name="i145" xml:space="preserve">
+		<value>Installation: internal category for models requiring additional components</value>
+	</data>
+	<data name="i146" xml:space="preserve">
+		<value>Colour palette: models with one or more interchangeable textures</value>
+	</data>
+	<data name="i147" xml:space="preserve">
+		<value>Internal representation of mobile-camera routes, from EEP 8.0</value>
+	</data>
+	<data name="i148" xml:space="preserve">
+		<value>Road splines, from EEP 8.0</value>
+	</data>
+	<data name="i149" xml:space="preserve">
+		<value>Tram-track splines, from EEP 8.0</value>
+	</data>
+	<data name="i150" xml:space="preserve">
+		<value>Waterway splines, from EEP 8.0</value>
+	</data>
+	<data name="i151" xml:space="preserve">
+		<value>Static-camera model in the 3D editor, from EEP 8.0</value>
+	</data>
+	<data name="i152" xml:space="preserve">
+		<value>Dynamic-camera model in the 3D editor, from EEP 8.0</value>
+	</data>
+	<data name="i153" xml:space="preserve">
+		<value>Mobile-camera model in the 3D editor, from EEP 8.0</value>
+	</data>
+	<data name="i154" xml:space="preserve">
+		<value>Information models: static scenery with 3D text display, from EEP 8.2</value>
+	</data>
+</root>

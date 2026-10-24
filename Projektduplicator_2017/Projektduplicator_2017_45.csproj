@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C86E6128-21B5-4A27-92FB-065A96E10CDE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projektduplicator_2017</RootNamespace>
+    <AssemblyName>Projektduplicator_2017</AssemblyName>
+    <LangVersion>8.0</LangVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>True</UpdateAssemblyInfoVersion>
+    <AssemblyVersionSettings>None.None.None.Increment</AssemblyVersionSettings>
+    <AssemblyFileVersionSettings>None.None.None.Increment</AssemblyFileVersionSettings>
+    <AssemblyInfoVersionSettings>None.None.None.Increment</AssemblyInfoVersionSettings>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>4.6.6.59</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>HN_Duplicator.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="IniFile">
+      <HintPath>..\lib\IniFile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="rbtools">
+      <HintPath>..\lib\rbtools.dll</HintPath>
+    </Reference>
+    <Reference Include="RichTextBoxPrintCtrl">
+      <HintPath>..\lib\RichTextBoxPrintCtrl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DirectoryTreeViewOnDemand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editor.Designer.cs">
+      <DependentUpon>editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Form1.Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="iconres.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iconres.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="iconres.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iconres.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="iconres.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iconres.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="iconres.nl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iconres.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="langres.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>langres.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="langres.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>langres.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="langres.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>langres.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="langres.nl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>langres.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LoadOnDemandTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="optionres.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>optionres.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="optionres.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>optionres.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="optionres.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>optionres.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="optionres.nl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>optionres.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="options.Designer.cs">
+      <DependentUpon>options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortableSettingsProvider.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="WaterMarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="xfile_change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xfile_change.designer.cs">
+      <DependentUpon>xfile_change.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="editor.resx">
+      <DependentUpon>editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form1.Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iconres.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iconres.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iconres.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iconres.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iconres.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iconres.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iconres.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iconres.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="langres.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>langres.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="langres.en.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>langres.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="langres.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>langres.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="langres.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>langres.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionres.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>optionres.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionres.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>optionres.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionres.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>optionres.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionres.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>optionres.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="options.resx">
+      <DependentUpon>options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="xfile_change.resx">
+      <DependentUpon>xfile_change.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HN_Duplicator.ico" />
+    <None Include="Resources\icons8-available-updates-50.png" />
+    <None Include="Resources\icons8-Waste-32.png" />
+    <None Include="Resources\32x32.png" />
+    <None Include="Resources\config_h.png" />
+    <None Include="Resources\config.png" />
+    <None Include="Resources\minimize_h.png" />
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\close2_h.png" />
+    <None Include="Resources\close2.png" />
+    <None Include="Resources\close.png" />
+    <None Include="refresh-64x64.png" />
+    <None Include="Resources\us.png" />
+    <None Include="Resources\ua.png" />
+    <None Include="Resources\tr.png" />
+    <None Include="Resources\slowakei.gif" />
+    <None Include="Resources\si.png" />
+    <None Include="Resources\se.png" />
+    <None Include="Resources\ru.png" />
+    <None Include="Resources\ru.gif" />
+    <None Include="Resources\rs.png" />
+    <None Include="Resources\ro.png" />
+    <None Include="Resources\pt.png" />
+    <None Include="Resources\pl.png" />
+    <None Include="Resources\others.png" />
+    <None Include="Resources\nl.png" />
+    <None Include="Resources\mx.png" />
+    <None Include="Resources\mt.png" />
+    <None Include="Resources\lv.png" />
+    <None Include="Resources\lu.png" />
+    <None Include="Resources\lt.png" />
+    <None Include="Resources\li.png" />
+    <None Include="Resources\jugosl1.gif" />
+    <None Include="Resources\jp.png" />
+    <None Include="Resources\it.png" />
+    <None Include="Resources\ie.png" />
+    <None Include="Resources\hu.png" />
+    <None Include="Resources\hr.png" />
+    <None Include="Resources\gr.png" />
+    <None Include="Resources\gb.png" />
+    <None Include="Resources\fr.png" />
+    <None Include="Resources\fi.png" />
+    <None Include="Resources\es.png" />
+    <None Include="Resources\ee.png" />
+    <None Include="Resources\dk.png" />
+    <None Include="Resources\dir.png" />
+    <None Include="Resources\de.png" />
+    <None Include="Resources\cz.png" />
+    <None Include="Resources\cy.png" />
+    <None Include="Resources\cn.png" />
+    <None Include="Resources\ch.png" />
+    <None Include="Resources\ca.png" />
+    <None Include="Resources\br.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\be.png" />
+    <None Include="Resources\ba.png" />
+    <None Include="Resources\au.png" />
+    <None Include="Resources\at.png" />
+    <None Include="Resources\_in.png" />
+    <None Include="Resources\_154.gif" />
+    <None Include="Resources\_153.gif" />
+    <None Include="Resources\_152.gif" />
+    <None Include="Resources\_151.gif" />
+    <None Include="Resources\_150.gif" />
+    <None Include="Resources\_149.gif" />
+    <None Include="Resources\_148.gif" />
+    <None Include="Resources\_147.gif" />
+    <None Include="Resources\_146.gif" />
+    <None Include="Resources\_145.gif" />
+    <None Include="Resources\_144.gif" />
+    <None Include="Resources\_143.gif" />
+    <None Include="Resources\_142.gif" />
+    <None Include="Resources\_141.gif" />
+    <None Include="Resources\_140.gif" />
+    <None Include="Resources\_139.gif" />
+    <None Include="Resources\_138.gif" />
+    <None Include="Resources\_137.gif" />
+    <None Include="Resources\_136.gif" />
+    <None Include="Resources\_135.gif" />
+    <None Include="Resources\_134.gif" />
+    <None Include="Resources\_133.gif" />
+    <None Include="Resources\_132.gif" />
+    <None Include="Resources\_131.gif" />
+    <None Include="Resources\_130.gif" />
+    <None Include="Resources\_129.gif" />
+    <None Include="Resources\_128.gif" />
+    <None Include="Resources\_127.gif" />
+    <None Include="Resources\_126.gif" />
+    <None Include="Resources\_125.gif" />
+    <None Include="Resources\_124.gif" />
+    <None Include="Resources\_123.gif" />
+    <None Include="Resources\_122.gif" />
+    <None Include="Resources\_121.gif" />
+    <None Include="Resources\_120.gif" />
+    <None Include="Resources\_119.gif" />
+    <None Include="Resources\_118.gif" />
+    <None Include="Resources\_117.gif" />
+    <None Include="Resources\_116.gif" />
+    <None Include="Resources\_115.gif" />
+    <None Include="Resources\_114.gif" />
+    <None Include="Resources\_113.gif" />
+    <None Include="Resources\_112.gif" />
+    <None Include="Resources\_111.gif" />
+    <None Include="Resources\_110.gif" />
+    <None Include="Resources\_109.gif" />
+    <None Include="Resources\_108.gif" />
+    <None Include="Resources\_107.gif" />
+    <None Include="Resources\_106.gif" />
+    <None Include="Resources\_105.gif" />
+    <None Include="Resources\_104.gif" />
+    <None Include="Resources\_103.gif" />
+    <None Include="Resources\_102.gif" />
+    <None Include="Resources\_101.gif" />
+    <None Include="Resources\_100.gif" />
+    <None Include="Resources\_099.gif" />
+    <None Include="Resources\_098.gif" />
+    <None Include="Resources\_097.gif" />
+    <None Include="Resources\_096.gif" />
+    <None Include="Resources\_095.gif" />
+    <None Include="Resources\_094.gif" />
+    <None Include="Resources\_093.gif" />
+    <None Include="Resources\_092.gif" />
+    <None Include="Resources\_091.gif" />
+    <None Include="Resources\_090.gif" />
+    <None Include="Resources\_089.gif" />
+    <None Include="Resources\_088.gif" />
+    <None Include="Resources\_087.gif" />
+    <None Include="Resources\_086.gif" />
+    <None Include="Resources\_085.gif" />
+    <None Include="Resources\_084.gif" />
+    <None Include="Resources\_083.gif" />
+    <None Include="Resources\_082.gif" />
+    <None Include="Resources\_081.gif" />
+    <None Include="Resources\_080.gif" />
+    <None Include="Resources\_079.gif" />
+    <None Include="Resources\_078.gif" />
+    <None Include="Resources\_077.gif" />
+    <None Include="Resources\_076.gif" />
+    <None Include="Resources\_075.gif" />
+    <None Include="Resources\_074.gif" />
+    <None Include="Resources\_073.gif" />
+    <None Include="Resources\_072.gif" />
+    <None Include="Resources\_071.gif" />
+    <None Include="Resources\_070.gif" />
+    <None Include="Resources\_069.gif" />
+    <None Include="Resources\_068.gif" />
+    <None Include="Resources\_067.gif" />
+    <None Include="Resources\_066.gif" />
+    <None Include="Resources\_065.gif" />
+    <None Include="Resources\_064.gif" />
+    <None Include="Resources\_063.gif" />
+    <None Include="Resources\_062.gif" />
+    <None Include="Resources\_061.gif" />
+    <None Include="Resources\_060.gif" />
+    <None Include="Resources\_059.gif" />
+    <None Include="Resources\_058.gif" />
+    <None Include="Resources\_057.gif" />
+    <None Include="Resources\_056.gif" />
+    <None Include="Resources\_055.gif" />
+    <None Include="Resources\_054.gif" />
+    <None Include="Resources\_053.gif" />
+    <None Include="Resources\_052.gif" />
+    <None Include="Resources\_051.gif" />
+    <None Include="Resources\_050.gif" />
+    <None Include="Resources\_049.gif" />
+    <None Include="Resources\_048.gif" />
+    <None Include="Resources\_047.gif" />
+    <None Include="Resources\_046.gif" />
+    <None Include="Resources\_045.gif" />
+    <None Include="Resources\_044.gif" />
+    <None Include="Resources\_043.gif" />
+    <None Include="Resources\_042.gif" />
+    <None Include="Resources\_041.gif" />
+    <None Include="Resources\_040.gif" />
+    <None Include="Resources\_039.gif" />
+    <None Include="Resources\_038.gif" />
+    <None Include="Resources\_037.gif" />
+    <None Include="Resources\_036.gif" />
+    <None Include="Resources\_035.gif" />
+    <None Include="Resources\_034.gif" />
+    <None Include="Resources\_033.gif" />
+    <None Include="Resources\_032.gif" />
+    <None Include="Resources\_031.gif" />
+    <None Include="Resources\_030.gif" />
+    <None Include="Resources\_029.gif" />
+    <None Include="Resources\_028.gif" />
+    <None Include="Resources\_027.gif" />
+    <None Include="Resources\_026.gif" />
+    <None Include="Resources\_025.gif" />
+    <None Include="Resources\_024.gif" />
+    <None Include="Resources\_023.gif" />
+    <None Include="Resources\_022.gif" />
+    <None Include="Resources\_021.gif" />
+    <None Include="Resources\_020.gif" />
+    <None Include="Resources\_019.gif" />
+    <None Include="Resources\_018.gif" />
+    <None Include="Resources\_017.gif" />
+    <None Include="Resources\_016.gif" />
+    <None Include="Resources\_015.gif" />
+    <None Include="Resources\_014.gif" />
+    <None Include="Resources\_013.gif" />
+    <None Include="Resources\_012.gif" />
+    <None Include="Resources\_011.gif" />
+    <None Include="Resources\_010.gif" />
+    <None Include="Resources\_009.gif" />
+    <None Include="Resources\_008.gif" />
+    <None Include="Resources\_007.gif" />
+    <None Include="Resources\_006.gif" />
+    <None Include="Resources\_005.gif" />
+    <None Include="Resources\_004.gif" />
+    <None Include="Resources\_003.gif" />
+    <None Include="Resources\_002.gif" />
+    <None Include="Resources\_001.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GithubUpdateClient.cs" />
+    <Compile Include="GithubUpdateForm.cs" />
+    <Compile Include="ModelTranslation.cs" />
+    <Compile Include="SettingsMigration.cs" />
+    <Compile Include="..\updater\UpdateCore.cs">
+      <Link>UpdateCore.cs</Link>
+    </Compile>
+    <Reference Include="System.Runtime.Serialization" />
+    <Content Include="..\info.txt">
+      <Link>info.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <ProjectReference Include="..\updater\Projektduplicator.Updater.csproj">
+      <Project>{ADE4676B-9846-4FB1-BC23-2D91527F40EC}</Project>
+      <Name>Projektduplicator.Updater</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="CopyUpdater" AfterTargets="Build">
+    <Copy SourceFiles="..\updater\bin\$(Configuration)\Projektduplicator.Updater.exe" DestinationFolder="$(OutputPath)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_StartDate="2000/1/1" BuildVersion_BuildVersioningStyle="None.None.Increment.Increment" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_UpdateFileVersion="True" BuildVersion_UseUniversalClock="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

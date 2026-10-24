@@ -1,0 +1,33 @@
+name: Windows build and local checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: microsoft/setup-msbuild@v2
+      - uses: NuGet/setup-nuget@v2
+      - name: Restore dependencies
+        run: nuget restore Projektduplicator_2017_45.sln -NonInteractive
+      - name: Build
+        run: msbuild Projektduplicator_2017_45.sln /p:Configuration=Release /v:minimal
+      - name: Build tests
+        run: msbuild tests/Projektduplicator.Tests.csproj /p:Configuration=Release /v:minimal
+      - name: Package
+        run: ./tools/package-local.ps1 -OutputDirectory dist/release
+      - name: Verify package and updater in temporary directories
+        shell: pwsh
+        run: |
+          $zip = (Get-ChildItem dist/release/*.zip).FullName
+          ./tests/bin/Projektduplicator.Tests.exe Projektduplicator_2017/bin/Release $zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Projektduplicator-2026-windows
+          path: |
+            dist/release/*.zip
+            dist/release/SHA256SUMS.txt

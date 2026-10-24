@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="country1" xml:space="preserve">
+    <value>Oostenrijk</value>
+  </data>
+	<data name="country2" xml:space="preserve">
+    <value>Australië</value>
+  </data>
+	<data name="country3" xml:space="preserve">
+    <value>Bosnië en Herzegovina</value>
+  </data>
+	<data name="country4" xml:space="preserve">
+    <value>België</value>
+  </data>
+	<data name="country5" xml:space="preserve">
+    <value>Bulgarije</value>
+  </data>
+	<data name="country6" xml:space="preserve">
+    <value>Brazilië</value>
+  </data>
+	<data name="country7" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+	<data name="country8" xml:space="preserve">
+    <value>Zwitserland</value>
+  </data>
+	<data name="country9" xml:space="preserve">
+    <value>China</value>
+  </data>
+	<data name="country10" xml:space="preserve">
+    <value>Cyprus</value>
+  </data>
+	<data name="country11" xml:space="preserve">
+    <value>Tsjecho-Slowakije</value>
+  </data>
+	<data name="country12" xml:space="preserve">
+    <value>Tsjechië</value>
+  </data>
+	<data name="country13" xml:space="preserve">
+    <value>Duitsland</value>
+  </data>
+	<data name="country14" xml:space="preserve">
+    <value>Denemarken</value>
+  </data>
+	<data name="country15" xml:space="preserve">
+    <value>Estland</value>
+  </data>
+	<data name="country16" xml:space="preserve">
+    <value>Spanje</value>
+  </data>
+	<data name="country17" xml:space="preserve">
+    <value>Finland</value>
+  </data>
+	<data name="country18" xml:space="preserve">
+    <value>Frankrijk</value>
+  </data>
+	<data name="country19" xml:space="preserve">
+    <value>Engeland</value>
+  </data>
+	<data name="country20" xml:space="preserve">
+    <value>Griekenland</value>
+  </data>
+	<data name="country21" xml:space="preserve">
+    <value>Kroatië</value>
+  </data>
+	<data name="country22" xml:space="preserve">
+    <value>Hongarije</value>
+  </data>
+	<data name="country23" xml:space="preserve">
+    <value>Ierland</value>
+  </data>
+	<data name="country24" xml:space="preserve">
+    <value>Italië</value>
+  </data>
+	<data name="country25" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+	<data name="country26" xml:space="preserve">
+    <value>Lichtenstein</value>
+  </data>
+	<data name="country27" xml:space="preserve">
+    <value>Litouwen</value>
+  </data>
+	<data name="country28" xml:space="preserve">
+    <value>Luxemburg</value>
+  </data>
+	<data name="country29" xml:space="preserve">
+    <value>Letland</value>
+  </data>
+	<data name="country30" xml:space="preserve">
+    <value>Nederland</value>
+  </data>
+	<data name="country31" xml:space="preserve">
+    <value>Malta</value>
+  </data>
+	<data name="country32" xml:space="preserve">
+    <value>Polen</value>
+  </data>
+	<data name="country33" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+	<data name="country34" xml:space="preserve">
+    <value>Roemenië</value>
+  </data>
+	<data name="country35" xml:space="preserve">
+    <value>Servië</value>
+  </data>
+	<data name="country36" xml:space="preserve">
+    <value>Indië</value>
+  </data>
+	<data name="country37" xml:space="preserve">
+    <value>Zweden</value>
+  </data>
+	<data name="country38" xml:space="preserve">
+    <value>Slovenië</value>
+  </data>
+	<data name="country39" xml:space="preserve">
+    <value>Turkije</value>
+  </data>
+	<data name="country40" xml:space="preserve">
+    <value>Oekraïne</value>
+  </data>
+	<data name="country41" xml:space="preserve">
+    <value>VS</value>
+  </data>
+	<data name="country42" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+	<data name="country43" xml:space="preserve">
+    <value>Mexico</value>
+  </data>
+	<data name="country44" xml:space="preserve">
+    <value>Slowakije</value>
+  </data>
+	<data name="country45" xml:space="preserve">
+    <value>Rusland</value>
+  </data>
+	<data name="i5" xml:space="preserve">
+		<value>Platform, gebruikt voor spoor en vastgoed</value>
+	</data>
+	<data name="i6" xml:space="preserve">
+		<value>Vormsignaal met twee begrippen (reis / stop)</value>
+	</data>
+	<data name="i7" xml:space="preserve">
+		<value>Algemeen gebruikt voor herenhuizen (een- en meergezinswoningen)</value>
+	</data>
+	<data name="i8" xml:space="preserve">
+		<value>Groep of een reeks van verschillende bomen of struiken, ingesloten in een model</value>
+	</data>
+	<data name="i9" xml:space="preserve">
+		<value>Beweegbaar  (verlaadbare goederen van alle soorten)</value>
+	</data>
+	<data name="i10" xml:space="preserve">
+		<value>Algemeen voor stoomlocomotieven</value>
+	</data>
+	<data name="i11" xml:space="preserve">
+		<value>Algemeen gebruikt voor  historische personenrijtuigen</value>
+	</data>
+	<data name="i12" xml:space="preserve">
+		<value>Algemeen gebruikt voor  tankwagens van alle soorten</value>
+	</data>
+	<data name="i13" xml:space="preserve">
+		<value>Algemeen gebruikt voor trams</value>
+	</data>
+	<data name="i14" xml:space="preserve">
+		<value>Algemeen gebruikt voor  bestelwagens en kleine bussen</value>
+	</data>
+	<data name="i15" xml:space="preserve">
+		<value>Algemeen gebruikt voor  kranen en andere beladingmachines</value>
+	</data>
+	<data name="i16" xml:space="preserve">
+		<value>Algemeen gebruikt voor  kleinere schepen en boten</value>
+	</data>
+	<data name="i17" xml:space="preserve">
+		<value>Algemeen gebruikt voor  civiele propellermotoren (vliegtuig)</value>
+	</data>
+	<data name="i18" xml:space="preserve">
+		<value>SAlgemeen gebruikt voor modellen met klokfunctie</value>
+	</data>
+	<data name="i19" xml:space="preserve">
+		<value>Gebruikt voor vlaggen, vlaggenmasten en andere nationale symbolen</value>
+	</data>
+	<data name="i20" xml:space="preserve">
+		<value>Menselijke figuur, vertegenwoordigt een man aan het werk</value>
+	</data>
+	<data name="i21" xml:space="preserve">
+		<value>Menselijke figuur, vertegenwoordigt een man in dienstfunctie</value>
+	</data>
+	<data name="i22" xml:space="preserve">
+		<value>Menselijke figuur, vertegenwoordigt een man in vrije tijd</value>
+	</data>
+	<data name="i23" xml:space="preserve">
+		<value>Standaardinstelling = Niet gedefinieerd! De auteur van het model heeft nog geen geschikt icoon geselecteerd!</value>
+	</data>
+	<data name="i24" xml:space="preserve">
+		<value>Algemeen gebruikt voor technische apparaten en toestellen</value>
+	</data>
+	<data name="i25" xml:space="preserve">
+		<value>Algemeen gebruikt voor alle wintermodellen</value>
+	</data>
+	<data name="i26" xml:space="preserve">
+		<value>Noodvoertuigen (noodvoertuigen, reddingsvoertuigen, hulpdiensten, hulporganisaties enz.)</value>
+	</data>
+	<data name="i27" xml:space="preserve">
+		<value>Personenauto's algemeen gebruikt voor eerste klasse, luxeklasse, sport- en off-road voertuigen</value>
+	</data>
+	<data name="i28" xml:space="preserve">
+		<value>Algemeen gebruikt  voor bussen voor het personenvervoer</value>
+	</data>
+	<data name="i29" xml:space="preserve">
+		<value>Voorwerpen en goederen die niet kunnen worden geladen (staande modellen)</value>
+	</data>
+	<data name="i30" xml:space="preserve">
+		<value>Geluidsmodules (modellen met reeds toegewezen geluid)</value>
+	</data>
+	<data name="i31" xml:space="preserve">
+		<value>Algemeen gebruikt voor alle sleeplocomotieven</value>
+	</data>
+	<data name="i32" xml:space="preserve">
+		<value>Gebruikt voor alle diesellocomotieven</value>
+	</data>
+	<data name="i33" xml:space="preserve">
+		<value>Gebruikt voor alle electrische locomotieven</value>
+	</data>
+	<data name="i34" xml:space="preserve">
+		<value>Vormsignaal met meerdere signaalstanden (maximaal 10 signaalstanden)</value>
+	</data>
+	<data name="i35" xml:space="preserve">
+		<value>Algemeen gebruikt voor versperringen, halve versperringen of spoorwegovergangen</value>
+	</data>
+	<data name="i36" xml:space="preserve">
+		<value>Rollende materialen van eender welke aard, die met ander rollend materieel kunnen worden gebruikt</value>
+	</data>
+	<data name="i37" xml:space="preserve">
+		<value>Algemeen gebruikt voor splines (paden of objecten die direct verbonden zijn met een spoor)</value>
+	</data>
+	<data name="i38" xml:space="preserve">
+		<value>Algemeen gebruikt voor alle fietsen (ook met fietsers)</value>
+	</data>
+	<data name="i39" xml:space="preserve">
+		<value>Algemeen gebruikt voor alle motoren (ook met motorrijders)</value>
+	</data>
+	<data name="i40" xml:space="preserve">
+		<value>Auto's, meestal gebruikt voor kleine auto's, compactklasse en middelklasse.</value>
+	</data>
+	<data name="i41" xml:space="preserve">
+		<value>Algemeen gebruikt voor vrachtwagens met gesloten bak, ook tankwagens</value>
+	</data>
+	<data name="i42" xml:space="preserve">
+		<value>Vrachtwagens, in het algemeen bedoeld voor vrachtwagens met open (vast of kantelbaar) platform</value>
+	</data>
+	<data name="i43" xml:space="preserve">
+		<value>Algemeen gebruikt voor trekkers en landbouwmachines en uitrusting</value>
+	</data>
+	<data name="i44" xml:space="preserve">
+		<value>Algemeen gebruikt voor alle civiele voertuigen met kettingaandrijving</value>
+	</data>
+	<data name="i45" xml:space="preserve">
+		<value>Helikopter, meestal gebruikt voor alle helikopters</value>
+	</data>
+	<data name="i46" xml:space="preserve">
+		<value>Algemeen gebruikt voor bouwmachines en -uitrusting (niet alleen met kettingaandrijving)</value>
+	</data>
+	<data name="i47" xml:space="preserve">
+		<value>Gebruikt ​​voor alle militaire voertuigen (niet alleen met kettingaandrijving)</value>
+	</data>
+	<data name="i48" xml:space="preserve">
+		<value>Zeilboten, gebruikt voor alle zeilboten, zeiljachten, enz</value>
+	</data>
+	<data name="i49" xml:space="preserve">
+		<value>Coniferen van allerlei aard</value>
+	</data>
+	<data name="i50" xml:space="preserve">
+		<value>Breedbladige bomen van alle soorten</value>
+	</data>
+	<data name="i51" xml:space="preserve">
+		<value>Struiken en kleine bomen</value>
+	</data>
+	<data name="i52" xml:space="preserve">
+		<value>Varken, gebruikt voor alle huisdieren en boerderijdieren</value>
+	</data>
+	<data name="i53" xml:space="preserve">
+		<value>Paard, gebruikt voor alle lastdieren</value>
+	</data>
+	<data name="i54" xml:space="preserve">
+		<value>Hond, gebruikt voor alle huisdieren</value>
+	</data>
+	<data name="i55" xml:space="preserve">
+		<value>Hert, gebruikt voor alle wilde dieren</value>
+	</data>
+	<data name="i56" xml:space="preserve">
+		<value>Menselijke figuur, meisje</value>
+	</data>
+	<data name="i57" xml:space="preserve">
+		<value>Familie, gebruikt voor meerdere menselijke figuren in een model</value>
+	</data>
+	<data name="i58" xml:space="preserve">
+		<value>Menselijke figuur, representatief voor een vrouw in dienst</value>
+	</data>
+	<data name="i59" xml:space="preserve">
+		<value>Menselijke figuur, representatief voor een vrouw op het werk</value>
+	</data>
+	<data name="i60" xml:space="preserve">
+		<value>Menselijke figuur, representatief voor een vrouw in vrije tijd</value>
+	</data>
+	<data name="i61" xml:space="preserve">
+		<value>Menselijke figuur, representatief voor een tweede vrouw in vrije tijd</value>
+	</data>
+	<data name="i62" xml:space="preserve">
+		<value>Soldaat, vertegenwoordigt alle leden van militaire strijdkrachten</value>
+	</data>
+	<data name="i63" xml:space="preserve">
+		<value>Fabriek, gebruikt voor alle industriële gebouwen</value>
+	</data>
+	<data name="i64" xml:space="preserve">
+		<value>Gate, staat voor alle historische en monumentale gebouwen</value>
+	</data>
+	<data name="i65" xml:space="preserve">
+		<value>Kerk, is representatief voor alle kerkgebouwen</value>
+	</data>
+	<data name="i66" xml:space="preserve">
+		<value>Castle, staat representatief voor alle kastelen, kasteelterrein en kastelen</value>
+	</data>
+	<data name="i67" xml:space="preserve">
+		<value>Property, is representatief voor alle gebouwen, als onroerende goederen</value>
+	</data>
+	<data name="i68" xml:space="preserve">
+		<value>Windmolen, is representatief voor alle molens, gemalen of boilers</value>
+	</data>
+	<data name="i69" xml:space="preserve">
+		<value>Agricultural Farm onderneming als een residentieel of commercieel gebouw</value>
+	</data>
+	<data name="i70" xml:space="preserve">
+		<value>Teken, staat voor alle soorten informatie en advertentieruimte</value>
+	</data>
+	<data name="i71" xml:space="preserve">
+		<value>Townhouse, staat voor alle multi-- eengezinswoningen, rijtjeshuizen, etc</value>
+	</data>
+	<data name="i72" xml:space="preserve">
+		<value>Hoogbouw, staat voor alle soorten van hoge gebouwen (de kwalificerende 27m hoogte hoeven niet te worden bereikt)</value>
+	</data>
+	<data name="i73" xml:space="preserve">
+		<value>Station, staat voor alle ontvangst gebouwen spoorbanen, of vastgoed</value>
+	</data>
+	<data name="i74" xml:space="preserve">
+		<value>ICE, staat op naam van alle locomotieven van het Duitse spoorwegnet</value>
+	</data>
+	<data name="i75" xml:space="preserve">
+		<value>TGV, staat op naam van alle locomotieven van de Franse spoorwegen</value>
+	</data>
+	<data name="i76" xml:space="preserve">
+		<value>Thalys staat op naam van alle internationaal circulerende tractie-eenheden</value>
+	</data>
+	<data name="i77" xml:space="preserve">
+		<value>Tram, staat op naam van alle trams</value>
+	</data>
+	<data name="i78" xml:space="preserve">
+		<value>Tunneling, staat voor alle tunneltoe en tunnel modules</value>
+	</data>
+	<data name="i79" xml:space="preserve">
+		<value>Platform Accessoires Alle toebehoren (scoreborden, kaartautomaten, platform klokken, enz.)</value>
+	</data>
+	<data name="i80" xml:space="preserve">
+		<value>Gekoelde, staat voor alle soorten koelkasten</value>
+	</data>
+	<data name="i81" xml:space="preserve">
+		<value>Gondels, staat representatief voor alle soorten open trucks met zijwanden</value>
+	</data>
+	<data name="i82" xml:space="preserve">
+		<value>Wandelwagen, staat voor alle soorten kinderwagens</value>
+	</data>
+	<data name="i83" xml:space="preserve">
+		<value>Stof en silo wagen, staat voor alle soorten silowagen vertegenwoordigen</value>
+	</data>
+	<data name="i84" xml:space="preserve">
+		<value>Boxcars, stands met allerlei goederenwagons</value>
+	</data>
+	<data name="i85" xml:space="preserve">
+		<value>Platform en containerwagens, spreekt voor allerlei platformtrucks vertegenwoordigen</value>
+	</data>
+	<data name="i86" xml:space="preserve">
+		<value>Mail auto staat op naam van alle post en bagageruim auto's ouder ontwerp</value>
+	</data>
+	<data name="i87" xml:space="preserve">
+		<value>Coaches, staat op naam van alle coaches nieuwere ontwerp (van tijdperk IV)</value>
+	</data>
+	<data name="i88" xml:space="preserve">
+		<value>Auto van superieur comfort (TEA etc.)</value>
+	</data>
+	<data name="i89" xml:space="preserve">
+		<value>Buurtverkeersrijtuigen, staat representatief voor alle soorten buurtverkeersrijtuigen</value>
+	</data>
+	<data name="i90" xml:space="preserve">
+		<value>Trein en metro auto</value>
+	</data>
+	<data name="i91" xml:space="preserve">
+		<value>Bus en tram accessoires als een eigenschap, bijvoorbeeld Bushaltes, etc</value>
+	</data>
+	<data name="i92" xml:space="preserve">
+		<value>Subway accessoires zoals onroerend goed of spoor objecten, bijvoorbeeld metrohaltes</value>
+	</data>
+	<data name="i93" xml:space="preserve">
+		<value>Trein accessoires als een eigenschap of track objecten, bijvoorbeeld S-Bahn stops</value>
+	</data>
+	<data name="i94" xml:space="preserve">
+		<value>Slip schakelaars signaal (Wn) Vertegenwoordigt DKW signaal als een eigenschap of een nummer object DKW</value>
+	</data>
+	<data name="i95" xml:space="preserve">
+		<value>Zacht signaal (Wn) Deze vertegenwoordigd modellen van zachte verlichting en wissels als eigendom of nummer object</value>
+	</data>
+	<data name="i96" xml:space="preserve">
+		<value>Bovenleidingmast, staat die alle bovenleidingsmasten, boom, cross-draagstructuren en jukken</value>
+	</data>
+	<data name="i97" xml:space="preserve">
+		<value>Licht hoofd- en licht voorsein Licht signaal naar DS / DV 301</value>
+	</data>
+	<data name="i98" xml:space="preserve">
+		<value>St. signaallicht hoofdsignaal en lichtsignaal (Hl) naar DV 301</value>
+	</data>
+	<data name="i99" xml:space="preserve">
+		<value>Combinatiesignaal (Ks) combinatiesignaal naar DS / DV 301</value>
+	</data>
+	<data name="i100" xml:space="preserve">
+		<value>Hoofdsignaal (signaalsysteem L) van de SBB naar DTS (R 3001-15)</value>
+	</data>
+	<data name="i101" xml:space="preserve">
+		<value>Voorsein (signaalsysteem L) van de SBB FDV naar (R 3001-15)</value>
+	</data>
+	<data name="i102" xml:space="preserve">
+		<value>Hoofd- en voorsein</value>
+	</data>
+	<data name="i103" xml:space="preserve">
+		<value>Uithangborden, staat voor signaal boards, die worden uitgevoerd als signaal of vastgoed</value>
+	</data>
+	<data name="i104" xml:space="preserve">
+		<value>Verkeersborden Vertegenwoordigt verkeersborden en verkeersinformatie boards heeft Uitgevoerd zijn als onroerend goed of signaal</value>
+	</data>
+	<data name="i105" xml:space="preserve">
+		<value>Verkeerslichten, staat vertegenwoordiger van verkeerslichten, die zijn ontworpen als signalen of vastgoed</value>
+	</data>
+	<data name="i106" xml:space="preserve">
+		<value>Nautische accessoires, staat representatief voor accessoires modellen van scheepvaart, zoals Boyen, boothuizen, etc.</value>
+	</data>
+	<data name="i107" xml:space="preserve">
+		<value>Gevaarlijke goederen, substituten voor alle soorten gevaarlijke goederen of gevaarlijke goederen containers</value>
+	</data>
+	<data name="i108" xml:space="preserve">
+		<value>Bloemen, bloembedden, tuin planten, etc</value>
+	</data>
+	<data name="i109" xml:space="preserve">
+		<value>Jet, staat in het algemeen voor civiel straalmotor machines</value>
+	</data>
+	<data name="i110" xml:space="preserve">
+		<value>Ballon, staat representatief voor langzame Aviation (ballonnen, luchtschepen, draken, etc.)</value>
+	</data>
+	<data name="i111" xml:space="preserve">
+		<value>Militaire vliegtuigen, militaire vliegtuigen vertegenwoordigt alle ongeacht hun type voortstuwing</value>
+	</data>
+	<data name="i112" xml:space="preserve">
+		<value>Stalen brug, staat op naam van alle open structuren (ook houten bruggetjes)</value>
+	</data>
+	<data name="i113" xml:space="preserve">
+		<value>Stenen brug, staat voor alle vaste structuren (dwz betonnen bruggen)</value>
+	</data>
+	<data name="i114" xml:space="preserve">
+		<value>Locomotievenloods, staat voor exploitatie van de spoorwegen (hallen, garages, schuren, etc.)</value>
+	</data>
+	<data name="i115" xml:space="preserve">
+		<value>Signalering, staat voor alle types van de sloten</value>
+	</data>
+	<data name="i116" xml:space="preserve">
+		<value>openbare gebouwen</value>
+	</data>
+	<data name="i117" xml:space="preserve">
+		<value>Grass, staat die alle niet-houtachtige planten Low</value>
+	</data>
+	<data name="i118" xml:space="preserve">
+		<value>Boot dok als een track of eigenschap</value>
+	</data>
+	<data name="i119" xml:space="preserve">
+		<value>Bergen, staat representatief voor alle stenen en mineralen aardformaties</value>
+	</data>
+	<data name="i120" xml:space="preserve">
+		<value>Water, is representatief voor alle stilstaande en bewegende wateroppervlakken</value>
+	</data>
+	<data name="i121" xml:space="preserve">
+		<value>Brandweer, plaatsvervangend voor alle voertuigen van brandweer</value>
+	</data>
+	<data name="i122" xml:space="preserve">
+		<value>Fire, staande substituut voor alle modellen met vuur functie</value>
+	</data>
+	<data name="i123" xml:space="preserve">
+		<value>Baby, Vertegenwoordigt voor alle peuters Onafhankelijk van geslacht</value>
+	</data>
+	<data name="i124" xml:space="preserve">
+		<value>Mensen figuur, jongen</value>
+	</data>
+	<data name="i125" xml:space="preserve">
+		<value>Wagon, staat voor auto wagens, wagens en dergelijke wagens of wagens</value>
+	</data>
+	<data name="i126" xml:space="preserve">
+		<value>Elephant, staat op naam van alle wilde dieren, die niet typisch zijn voor Europa, het is ook de dierentuin of een circus dieren</value>
+	</data>
+	<data name="i127" xml:space="preserve">
+		<value>Trailer, staat voor alle aanhangwagens, uitgevoerd als rollend materieel of vastgoed</value>
+	</data>
+	<data name="i128" xml:space="preserve">
+		<value>lantaarn straten, staat op naam van alle lampen (parking lampen, track verlichting, lampen, etc.)</value>
+	</data>
+	<data name="i129" xml:space="preserve">
+		<value>Wall, staan ​​alle wanden, tracks, arcades, etc.</value>
+	</data>
+	<data name="i130" xml:space="preserve">
+		<value>OEBB trekvoertuig</value>
+	</data>
+	<data name="i131" xml:space="preserve">
+		<value>DB trekvoertuig</value>
+	</data>
+	<data name="i132" xml:space="preserve">
+		<value>SBB trekvoertuig</value>
+	</data>
+	<data name="i133" xml:space="preserve">
+		<value>Andere internationale wagons</value>
+	</data>
+	<data name="i134" xml:space="preserve">
+		<value>Clôture ou une barrière, se dresse au nom de toutes les clôtures et solides, mais pas des clôtures en briques</value>
+	</data>
+	<data name="i135" xml:space="preserve">
+		<value>Waarschuwingsborden Elektriciteit, staat op naam van alle apparatuur en gebruiksvoorwerpen die moeten direct doen met elektriciteit</value>
+	</data>
+	<data name="i136" xml:space="preserve">
+		<value>Waarschuwingsbord radioactieve straling, is representatief voor alle faciliteiten en apparatuur die in verbinding daarmee</value>
+	</data>
+	<data name="i137" xml:space="preserve">
+		<value>Container, gen rally toepassing op alle omhulsels, blikken, tanks, etc.</value>
+	</data>
+	<data name="i138" xml:space="preserve">
+		<value>Wolkenkrabber, staat in het algemeen voor zeer hoge gebouwen</value>
+	</data>
+	<data name="i139" xml:space="preserve">
+		<value>Factory, staat in het algemeen voor industriële gebouwen in de productie plaatsvindt, de productie of de bevordering</value>
+	</data>
+	<data name="i140" xml:space="preserve">
+		<value>Warehouse, gen rally staat voor industriële gebouwen in al die enigszins wordt opgeslagen</value>
+	</data>
+	<data name="i141" xml:space="preserve">
+		<value>Industriële installaties, staat op naam van alle apparatuur, apparaten en machine-industrie</value>
+	</data>
+	<data name="i142" xml:space="preserve">
+		<value>Park, staat in het algemeen voor modules van parken en stedelijke groenvoorzieningen</value>
+	</data>
+	<data name="i143" xml:space="preserve">
+		<value>Schip, stands met alle grote schepen en vrachtschepen</value>
+	</data>
+	<data name="i144" xml:space="preserve">
+		<value>haan, staat voor gedomesticeerde huisdieren, liefde vooral pluimvee</value>
+	</data>
+	<data name="i145" xml:space="preserve">
+		<value>Installatie (Intern: Vereist extra installatie van de componenten)</value>
+	</data>
+	<data name="i146" xml:space="preserve">
+		<value>Kleurenpalet Is representatief voor modellen die zijn uitgerust met een of meer Exchange textures</value>
+	</data>
+	<data name="i147" xml:space="preserve">
+		<value>Intern beeld van de rijweg van mobiele camera's Met ingang van EEP 8.0</value>
+	</data>
+	<data name="i148" xml:space="preserve">
+		<value>Straat, staat voor alle groeven van de wegen Vanaf EEP 8.0</value>
+	</data>
+	<data name="i149" xml:space="preserve">
+		<value>Rails, stands met alle strips tram van EEP 8,0</value>
+	</data>
+	<data name="i150" xml:space="preserve">
+		<value>Water, Permanent vertegenwoordiger van alle vertanding van de waterwegen van EEP 8,0</value>
+	</data>
+	<data name="i151" xml:space="preserve">
+		<value>Geeft het model van de statische camera van EEP 8.0 in de 3D-editor</value>
+	</data>
+	<data name="i152" xml:space="preserve">
+		<value>Geeft het model van de dynamische camera van EEP 8.0 in de 3D-editor</value>
+	</data>
+	<data name="i153" xml:space="preserve">
+		<value>Geeft het model van de mobiele camera van EEP 8.0 in de 3D-editor</value>
+	</data>
+	<data name="i154" xml:space="preserve">
+		<value>Informatie-modellen, modellen (alleen onroerend goed!) Met de mogelijkheid om een ​​tekst in 3D weer te geven van EEP 8.2</value>
+	</data>
+</root>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?><root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="pictureBox1.tt" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Project snapshots</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value>About the program</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Automatic backups</value>
+  </data>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projektduplicator 2026</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Path to the backup files</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Path to the backup files</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>WARNING: project deletion is enabled</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Saved designer signature:</value>
+  </data>
+  <data name="labelCopyright.Text" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="pictureBox2.tt" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="pictureBox3.tt" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="pictureBox5.tt" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="pictureBox6.tt" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="pictureBox7.tt" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="pictureBox8.tt" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Open in File Explorer</value>
+  </data>
+  <data name="toolStripMenuItem5.Text" xml:space="preserve">
+    <value>Delete selected project</value>
+  </data>
+  <data name="userBackupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Project snapshots</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Saved project snapshots</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Select an entry, then right-click to delete its ZIP file after confirmation.</value>
+  </data>
+  <data name="toolStripLabel2.Text" xml:space="preserve">
+    <value>Select an entry, then right-click to delete its ZIP file after confirmation.</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>If the country of origin is not listed, use the value "Others". Example: Peru, despite its standard-gauge railway reaching 4,781 m.</value>
+  </data>
+  <data name="labelCompanyName.Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="button1.Text_option" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="button2.Text_option" xml:space="preserve">
+    <value>Browse for folder</value>
+  </data>
+  <data name="button3.Text_option" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label2.Text_option" xml:space="preserve">
+    <value>Caution: enable this function at your own risk.</value>
+  </data>
+  <data name="label3.Text_option" xml:space="preserve">
+    <value>Last spline ID</value>
+  </data>
+  <data name="label4.Text_option" xml:space="preserve">
+    <value>Designer signature</value>
+  </data>
+  <data name="checkBox1.Text_option" xml:space="preserve">
+    <value>Enable project deletion</value>
+  </data>
+  <data name="$this.Text_option" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="a1.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="o1.Text" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="b1.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="r1.Text" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="m01.Text" xml:space="preserve">
+    <value>Model creator</value>
+  </data>
+  <data name="m1.Text" xml:space="preserve">
+    <value>Model name in English</value>
+  </data>
+  <data name="m2.Text" xml:space="preserve">
+    <value>Model name in German</value>
+  </data>
+  <data name="m3.Text" xml:space="preserve">
+    <value>Model name in French</value>
+  </data>
+  <data name="m4.Text" xml:space="preserve">
+    <value>Model name in Polish</value>
+  </data>
+  <data name="d1.Text" xml:space="preserve">
+    <value>Description in English</value>
+  </data>
+  <data name="d2.Text" xml:space="preserve">
+    <value>Description in German</value>
+  </data>
+  <data name="d3.Text" xml:space="preserve">
+    <value>Description in French</value>
+  </data>
+  <data name="d4.Text" xml:space="preserve">
+    <value>Description in Polish</value>
+  </data>
+  <data name="p1.Text" xml:space="preserve">
+    <value>PDF documentation in English</value>
+  </data>
+  <data name="p2.Text" xml:space="preserve">
+    <value>PDF documentation in German</value>
+  </data>
+  <data name="p3.Text" xml:space="preserve">
+    <value>PDF documentation in French</value>
+  </data>
+  <data name="p4.Text" xml:space="preserve">
+    <value>PDF documentation in Polish</value>
+  </data>
+  <data name="edverweis1" xml:space="preserve">
+    <value>Maximum 23 characters; an underscore and the designer code will be appended.</value>
+  </data>
+  <data name="edverweis2" xml:space="preserve">
+    <value>Contains special characters or spaces</value>
+  </data>
+  <data name="ed_t1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ed_b1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ed_b2" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ed_t2" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="ed_b22" xml:space="preserve">
+    <value>Clone</value>
+  </data>
+  <data name="ed_saerch" xml:space="preserve">
+    <value>Browse …</value>
+  </data>
+  <data name="ed_lb72" xml:space="preserve">
+    <value>Last used spline ID:</value>
+  </data>
+  <data name="ed_i" xml:space="preserve">
+    <value>No internet connection. Google translation is unavailable.</value>
+  </data>
+  <data name="ed_in" xml:space="preserve">
+    <value>Google translation available</value>
+  </data>
+  <data name="ed_no" xml:space="preserve">
+    <value>No network, no internet</value>
+  </data>
+  <data name="ed_tb3" xml:space="preserve">
+    <value>Translate description</value>
+  </data>
+  <data name="ed_bt11" xml:space="preserve">
+    <value>Translate model name</value>
+  </data>
+  <data name="ed_lb77" xml:space="preserve">
+    <value>An English text is required. Enter model names and descriptions without underscores.</value>
+  </data>
+  <data name="ed_info1" xml:space="preserve">
+    <value>Enter a description in English.</value>
+  </data>
+  <data name="tabP1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="tabP2" xml:space="preserve">
+    <value>Icons</value>
+  </data>
+  <data name="tabP3" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="tabP4" xml:space="preserve">
+    <value>HN spline IDs</value>
+  </data>
+  <data name="tabP5" xml:space="preserve">
+    <value>Designer spline IDs</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Original project</value>
+  </data>
+  <data name="m001" xml:space="preserve">
+    <value>Model Info</value>
+  </data>
+  <data name="m002" xml:space="preserve">
+    <value>Project data</value>
+  </data>
+  <data name="m003" xml:space="preserve">
+    <value>Spline ID</value>
+  </data>
+  <data name="label1_h" xml:space="preserve">
+    <value>Choose the project folder.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Project folder</value>
+  </data>
+  <data name="mldg1" xml:space="preserve">
+    <value>No project folder is selected. A valid project folder contains System.ini and the corresponding project files, shown in the lower-left list.</value>
+  </data>
+  <data name="msgbox1" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="mldg2" xml:space="preserve">
+    <value>There is no entry to delete.</value>
+  </data>
+  <data name="mldg3" xml:space="preserve">
+    <value>Delete the selected backup file?</value>
+  </data>
+  <data name="mldg4" xml:space="preserve">
+    <value>Delete the selected snapshot?</value>
+  </data>
+  <data name="mldg5" xml:space="preserve">
+    <value>Move the selected project to the Recycle Bin?</value>
+  </data>
+  <data name="mldg6" xml:space="preserve">
+    <value>WARNING: this is not a project folder.</value>
+  </data>
+  <data name="mldg7" xml:space="preserve">
+    <value>saved</value>
+  </data>
+  <data name="mldg1_up" xml:space="preserve">
+    <value>Changes in version</value>
+  </data>
+  <data name="mldg2_up" xml:space="preserve">
+    <value>A new version is available for your application</value>
+  </data>
+  <data name="mldg3_up" xml:space="preserve">
+    <value>Would you like to install the update now?</value>
+  </data>
+  <data name="mldg4_up" xml:space="preserve">
+    <value>Projektduplicator 2026</value>
+  </data>
+  <data name="ed_lb101" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="ed_gb2" xml:space="preserve">
+    <value>Translation</value>
+  </data>
+  <data name="ed_gb1" xml:space="preserve">
+    <value>Spline type (relevant to roads and dirt tracks)</value>
+  </data>
+  <data name="ed_rb1" xml:space="preserve">
+    <value>One-way splines</value>
+  </data>
+  <data name="ed_rb2" xml:space="preserve">
+    <value>Standard two-lane splines</value>
+  </data>
+  <data name="ed_cb1" xml:space="preserve">
+    <value>Add OneWay entries to the spline</value>
+  </data>
+  <data name="ed_cb2" xml:space="preserve">
+    <value>**</value>
+  </data>
+  <data name="ed_cb3" xml:space="preserve">
+    <value>Use one PDF for all languages</value>
+  </data>
+  <data name="ed_lb79" xml:space="preserve">
+    <value>3dm name length</value>
+  </data>
+  <data name="ed_lb75" xml:space="preserve">
+    <value>3dm name (Prj file)</value>
+  </data>
+  <data name="ed_mldg1" xml:space="preserve">
+    <value>Enter the designer code.</value>
+  </data>
+  <data name="ed_mldg5" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ed_info2" xml:space="preserve">
+    <value>Enter a model name in English.</value>
+  </data>
+  <data name="ed_spmsg1" xml:space="preserve">
+    <value>Creating the ID list. Please wait.</value>
+  </data>
+  <data name="ed_spmsg2" xml:space="preserve">
+    <value>In the program folder, this also</value>
+  </data>
+  <data name="ed_spmsg3" xml:space="preserve">
+    <value>creates HN_splineID.txt</value>
+  </data>
+  <data name="ed_spmsg4" xml:space="preserve">
+    <value>or updates the existing list.</value>
+  </data>
+  <data name="ed_spmsg5" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ed_komsg2" xml:space="preserve">
+    <value>SplineID.txt does not exist yet. This feature is intended for model creators.</value>
+  </data>
+  <data name="ed_komsg3" xml:space="preserve">
+    <value>Alternatively, rename Demo_splineid.txt and add your own entries.</value>
+  </data>
+  <data name="ed_komsg1" xml:space="preserve">
+    <value>Create the file using UTF-8 encoding, for example with Notepad++.</value>
+  </data>
+  <data name="ed_kommsg1" xml:space="preserve">
+    <value>SplineID list</value>
+  </data>
+  <data name="ed_mldg2" xml:space="preserve">
+    <value>The project will be backed up before copying.</value>
+  </data>
+  <data name="ed_mldg3" xml:space="preserve">
+    <value>The destination is checked for an existing project folder.</value>
+  </data>
+  <data name="ed_mldg4" xml:space="preserve">
+    <value>Copying is cancelled if the destination folder already exists.</value>
+  </data>
+  <data name="ed_mldg6" xml:space="preserve">
+    <value>The project folder already exists. Creation has been cancelled.</value>
+  </data>
+  <data name="ed_mldg7" xml:space="preserve">
+    <value>The destination path is available. The project can be copied.</value>
+  </data>
+  <data name="ed_mldg8" xml:space="preserve">
+    <value>Press OK to continue copying.</value>
+  </data>
+  <data name="wmtext1" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="wmtext2" xml:space="preserve">
+    <value>Digits and decimal point, e.g. 1.0</value>
+  </data>
+  <data name="wmtext3" xml:space="preserve">
+    <value>Enter the designer signature.</value>
+  </data>
+  <data name="ed_lb26" xml:space="preserve">
+    <value>Extension for the new icons</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Saved workspace:</value>
+  </data>
+  <data name="cm_1" xml:space="preserve">
+    <value>Save path as workspace</value>
+  </data>
+  <data name="cm_2" xml:space="preserve">
+    <value>Switch to the default path</value>
+  </data>
+  <data name="cm_3" xml:space="preserve">
+    <value>Switch to the workspace</value>
+  </data>
+  <data name="mn1_1" xml:space="preserve">
+    <value>Open Path.txt</value>
+  </data>
+  <data name="mn1_2" xml:space="preserve">
+    <value>Save Path.txt</value>
+  </data>
+  <data name="mn2_1" xml:space="preserve">
+    <value>Open SplineID.txt</value>
+  </data>
+  <data name="mn2_2" xml:space="preserve">
+    <value>Save SplineID.txt</value>
+  </data>
+  <data name="mnedit_6" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="mnedit_1" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="mnedit_2" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="mnedit_3" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="mnedit_4" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="mnedit_5" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="lb13_t" xml:space="preserve">
+    <value>This file provides the ExportToEEP settings used by the editor.</value>
+  </data>
+  <data name="lb14_t" xml:space="preserve">
+    <value>This file provides the designers’ spline IDs used by the editor.</value>
+  </data>
+  <data name="dt1_1" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="dt1_2" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="tb3_t" xml:space="preserve">
+    <value>Edit Path.txt</value>
+  </data>
+  <data name="tb6_t" xml:space="preserve">
+    <value>Edit SplineID.txt</value>
+  </data>
+  <data name="selexp" xml:space="preserve">
+    <value>Choose export folder</value>
+  </data>
+  <data name="mnedit_7" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="mnedit_8" xml:space="preserve">
+    <value>Page setup</value>
+  </data>
+  <data name="mnedit_9" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="btnadd_path.Text" xml:space="preserve">
+    <value>Add path to Path.txt</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>Release folder exists (red)</value>
+  </data>
+  <data name="btn12.Text" xml:space="preserve">
+    <value>Back to the first tab</value>
+  </data>
+  <data name="label86.Text" xml:space="preserve">
+    <value>UserRelease folder exists (orange)</value>
+  </data>
+    <data name="btn1_xfile" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="btn2_xfile" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="lbl1_xfile" xml:space="preserve">
+    <value>X-import files found. If the model uses a single texture as required by the modelling guidelines, its ID can be changed in all .x.ini files.</value>
+  </data>
+  <data name="lbl3_xfile" xml:space="preserve">
+    <value>New texture ID</value>
+  </data>
+  <data name="lbl4_xfile" xml:space="preserve">
+    <value>Starting ID</value>
+  </data>
+  <data name="btn3_xfile" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="lbl2_xfile" xml:space="preserve">
+    <value>.</value>
+  </data>
+</root>
