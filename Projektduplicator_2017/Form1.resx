@@ -3027,7 +3027,7 @@
     <value>Magenta</value>
   </data>
   <data name="opmenu1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+N</value>
+    <value>131150</value>
   </data>
   <data name="opmenu1.ShowShortcutKeys" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3057,7 +3057,7 @@
     <value>Magenta</value>
   </data>
   <data name="svmenu1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+S</value>
+    <value>131155</value>
   </data>
   <data name="svmenu1.ShowShortcutKeys" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3108,7 +3108,7 @@
     <value>Magenta</value>
   </data>
   <data name="prtmenu1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+P</value>
+    <value>131152</value>
   </data>
   <data name="prtmenu1.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
@@ -3140,7 +3140,7 @@
 </value>
   </data>
   <data name="undomn1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+Z</value>
+    <value>131162</value>
   </data>
   <data name="undomn1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3160,7 +3160,7 @@
 </value>
   </data>
   <data name="redomn1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+Y</value>
+    <value>131161</value>
   </data>
   <data name="redomn1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3188,7 +3188,7 @@
     <value>Magenta</value>
   </data>
   <data name="cutmn1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+X</value>
+    <value>131160</value>
   </data>
   <data name="cutmn1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3214,7 +3214,7 @@
     <value>Magenta</value>
   </data>
   <data name="copymn1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+C</value>
+    <value>131139</value>
   </data>
   <data name="copymn1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3242,7 +3242,7 @@
     <value>Magenta</value>
   </data>
   <data name="pastemn1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+V</value>
+    <value>131158</value>
   </data>
   <data name="pastemn1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3254,7 +3254,7 @@
     <value>194, 6</value>
   </data>
   <data name="select1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+A</value>
+    <value>131137</value>
   </data>
   <data name="select1.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3403,7 +3403,7 @@
     <value>Magenta</value>
   </data>
   <data name="opmenu2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+O</value>
+    <value>131151</value>
   </data>
   <data name="opmenu2.ShowShortcutKeys" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3433,7 +3433,7 @@
     <value>Magenta</value>
   </data>
   <data name="svmenu2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+S</value>
+    <value>131155</value>
   </data>
   <data name="svmenu2.ShowShortcutKeys" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3484,7 +3484,7 @@
     <value>Magenta</value>
   </data>
   <data name="prtmenu2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+P</value>
+    <value>131152</value>
   </data>
   <data name="prtmenu2.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 22</value>
@@ -3516,7 +3516,7 @@
 </value>
   </data>
   <data name="undomn2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+Z</value>
+    <value>131162</value>
   </data>
   <data name="undomn2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3536,7 +3536,7 @@
 </value>
   </data>
   <data name="redomn2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+Y</value>
+    <value>131161</value>
   </data>
   <data name="redomn2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3564,7 +3564,7 @@
     <value>Magenta</value>
   </data>
   <data name="cutmn2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+X</value>
+    <value>131160</value>
   </data>
   <data name="cutmn2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3590,7 +3590,7 @@
     <value>Magenta</value>
   </data>
   <data name="copymn2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+C</value>
+    <value>131139</value>
   </data>
   <data name="copymn2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3618,7 +3618,7 @@
     <value>Magenta</value>
   </data>
   <data name="pastemn2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+V</value>
+    <value>131158</value>
   </data>
   <data name="pastemn2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
@@ -3630,7 +3630,7 @@
     <value>194, 6</value>
   </data>
   <data name="select2.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Strg+A</value>
+    <value>131137</value>
   </data>
   <data name="select2.Size" type="System.Drawing.Size, System.Drawing">
     <value>197, 22</value>
